@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="zgold_taurus" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5dc"/>
+      <stop offset="50%" stop-color="#c8a66b"/>
+      <stop offset="100%" stop-color="#8a6924"/>
+    </linearGradient>
+    <radialGradient id="zbg_taurus" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2e6f40" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#191d2c"/>
+      <stop offset="100%" stop-color="#121520"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="250" fill="url(#zbg_taurus)" rx="8"/>
+  <rect x="8" y="8" width="384" height="234" fill="none" stroke="url(#zgold_taurus)" stroke-width="1" stroke-opacity="0.4" rx="6"/>
+  <rect x="14" y="14" width="372" height="222" fill="none" stroke="url(#zgold_taurus)" stroke-width="0.75" stroke-dasharray="3,3" stroke-opacity="0.25"/>
+
+  <!-- Orbital Rings -->
+  <circle cx="200" cy="105" r="58" fill="none" stroke="url(#zgold_taurus)" stroke-width="1.2" stroke-opacity="0.35"/>
+  <circle cx="200" cy="105" r="46" fill="none" stroke="url(#zgold_taurus)" stroke-width="1" stroke-dasharray="2,4" stroke-opacity="0.4"/>
+  <circle cx="200" cy="105" r="32" fill="#2e6f40" fill-opacity="0.25"/>
+
+  <!-- Constellation Stardust Dots -->
+  <circle cx="120" cy="65" r="1.5" fill="#f5ecd5" opacity="0.6"/>
+  <circle cx="280" cy="60" r="1.2" fill="#f5ecd5" opacity="0.7"/>
+  <circle cx="90" cy="140" r="1.8" fill="#c8a66b" opacity="0.8"/>
+  <circle cx="310" cy="135" r="1.5" fill="#f5ecd5" opacity="0.6"/>
+  <circle cx="150" cy="170" r="1.2" fill="#c8a66b" opacity="0.5"/>
+  <circle cx="260" cy="165" r="1.5" fill="#f5ecd5" opacity="0.7"/>
+
+  <!-- Big Zodiac Glyphs -->
+  <text x="200" y="122" fill="#fff8e8" font-family="'Cormorant Garamond', Georgia, serif" font-size="44" font-weight="700" text-anchor="middle">♉</text>
+
+  <!-- Name & Sanskrit -->
+  <text x="200" y="185" fill="#f5ecd5" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-weight="600" letter-spacing="1" text-anchor="middle">Taurus</text>
+  <text x="200" y="205" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="10" letter-spacing="2" text-anchor="middle">Vrishabha · वृषभ · EARTH · VENUS</text>
+
+  <!-- Dates at top -->
+  <text x="200" y="36" fill="#e8d7b3" font-family="'DM Sans', sans-serif" font-size="9" letter-spacing="2" text-anchor="middle">Apr 20 – May 20</text>
+</svg>

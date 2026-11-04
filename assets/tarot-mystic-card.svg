@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tgold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5dc"/>
+      <stop offset="40%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#8a6922"/>
+    </linearGradient>
+    <radialGradient id="tbg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#321f42"/>
+      <stop offset="60%" stop-color="#181d2c"/>
+      <stop offset="100%" stop-color="#10121a"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="350" height="550" fill="url(#tbg)" rx="16"/>
+  
+  <!-- Outer Gold Border -->
+  <rect x="14" y="14" width="322" height="522" rx="10" fill="none" stroke="url(#tgold)" stroke-width="2"/>
+  <rect x="22" y="22" width="306" height="506" rx="6" fill="none" stroke="url(#tgold)" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.6"/>
+
+  <!-- Card Top Roman Numeral -->
+  <text x="175" y="54" fill="#e8d7b3" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-weight="700" letter-spacing="4" text-anchor="middle">XVII</text>
+
+  <!-- Central Great 8-Pointed Star -->
+  <g transform="translate(175, 170)">
+    <circle cx="0" cy="0" r="48" fill="#d4af37" fill-opacity="0.12"/>
+    <!-- 8 points -->
+    <path d="M0,-55 L12,-15 L52,0 L12,15 L0,55 L-12,15 L-52,0 L-12,-15 Z" fill="url(#tgold)"/>
+    <circle cx="0" cy="0" r="14" fill="#ffffff" fill-opacity="0.9"/>
+  </g>
+
+  <!-- Surrounding 7 Smaller Stars -->
+  <g fill="url(#tgold)">
+    <!-- Star 1 -->
+    <path d="M70,120 L74,130 L84,134 L74,138 L70,148 L66,138 L56,134 L66,130 Z"/>
+    <!-- Star 2 -->
+    <path d="M280,120 L284,130 L294,134 L284,138 L280,148 L276,138 L266,134 L276,130 Z"/>
+    <!-- Star 3 -->
+    <path d="M60,210 L64,220 L74,224 L64,228 L60,238 L56,228 L46,224 L56,220 Z"/>
+    <!-- Star 4 -->
+    <path d="M290,210 L294,220 L304,224 L294,228 L290,238 L286,228 L276,224 L286,220 Z"/>
+    <!-- Star 5 -->
+    <path d="M110,80 L113,88 L121,91 L113,94 L110,102 L107,94 L99,91 L107,88 Z"/>
+    <!-- Star 6 -->
+    <path d="M240,80 L243,88 L251,91 L243,94 L240,102 L237,94 L229,91 L237,88 Z"/>
+    <!-- Star 7 -->
+    <path d="M175,260 L178,268 L186,271 L178,274 L175,282 L172,274 L164,271 L172,268 Z"/>
+  </g>
+
+  <!-- Sacred Pools & Chalices -->
+  <ellipse cx="175" cy="400" rx="110" ry="25" fill="#182538" stroke="url(#tgold)" stroke-width="1.5"/>
+  <ellipse cx="175" cy="400" rx="80" ry="16" fill="none" stroke="url(#tgold)" stroke-width="1" stroke-dasharray="2,3"/>
+
+  <!-- Twin Golden Pitchers Pouring Living Water -->
+  <g stroke="url(#tgold)" stroke-width="1.5" fill="none">
+    <path d="M110,330 C100,340 100,360 115,365 C130,360 130,340 120,330 Z"/>
+    <path d="M115,365 C115,380 130,395 150,400" stroke-width="1.8"/>
+    <path d="M240,330 C250,340 250,360 235,365 C220,360 220,340 230,330 Z"/>
+    <path d="M235,365 C235,380 220,395 200,400" stroke-width="1.8"/>
+  </g>
+
+  <!-- Sacred Ibis / Bird on Tree Branch -->
+  <path d="M60,370 Q100,350 140,365" stroke="url(#tgold)" stroke-width="1.5" fill="none"/>
+
+  <!-- Card Name at Bottom -->
+  <rect x="50" y="475" width="250" height="36" fill="#151925" stroke="url(#tgold)" stroke-width="1.2" rx="4"/>
+  <text x="175" y="498" fill="#f5ecd5" font-family="'Cormorant Garamond', Georgia, serif" font-size="19" font-weight="600" letter-spacing="3" text-anchor="middle">THE STAR · नक्षत्र</text>
+  <text x="175" y="524" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="9" letter-spacing="2" text-anchor="middle">INTUITION · HOPE · SPIRIT</text>
+</svg>

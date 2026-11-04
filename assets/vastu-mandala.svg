@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vgold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcefc7"/>
+      <stop offset="50%" stop-color="#c8a66b"/>
+      <stop offset="100%" stop-color="#8c6a2b"/>
+    </linearGradient>
+    <radialGradient id="vbg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#241b30"/>
+      <stop offset="60%" stop-color="#161a27"/>
+      <stop offset="100%" stop-color="#0e1017"/>
+    </radialGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c8a66b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c8a66b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#vbg)" rx="12"/>
+  
+  <!-- Outer Compass Ring -->
+  <circle cx="250" cy="250" r="230" fill="none" stroke="url(#vgold)" stroke-width="1.5" stroke-opacity="0.3"/>
+  <circle cx="250" cy="250" r="222" fill="none" stroke="url(#vgold)" stroke-width="1" stroke-dasharray="2,5" stroke-opacity="0.4"/>
+  
+  <!-- 3x3 Grid (9 Padas) -->
+  <g stroke="url(#vgold)" stroke-width="1.8" fill="none">
+    <!-- Outer Square -->
+    <rect x="80" y="80" width="340" height="340" stroke-width="2.5"/>
+    <!-- Horizontal Dividers -->
+    <line x1="80" y1="193" x2="420" y2="193"/>
+    <line x1="80" y1="307" x2="420" y2="307"/>
+    <!-- Vertical Dividers -->
+    <line x1="193" y1="80" x2="193" y2="420"/>
+    <line x1="307" y1="80" x2="307" y2="420"/>
+  </g>
+
+  <!-- Brahma Sthana Glow (Center) -->
+  <rect x="194" y="194" width="112" height="112" fill="url(#centerGlow)"/>
+  <circle cx="250" cy="250" r="38" fill="none" stroke="url(#vgold)" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="250" y="246" fill="#f5ecd5" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="700" text-anchor="middle">ब्रह्मस्थान</text>
+  <text x="250" y="265" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="9" letter-spacing="1" text-anchor="middle">ETHER · SPACE</text>
+
+  <!-- Top-Left: North-West (Vayu) -->
+  <text x="136" y="130" fill="#e8d7b3" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" text-anchor="middle">वायव्य (NW)</text>
+  <text x="136" y="148" fill="#ffffffaa" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">AIR · वायु</text>
+  <text x="136" y="165" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Movement · Guests</text>
+
+  <!-- Top-Center: North (Kubera) -->
+  <text x="250" y="130" fill="#e8d7b3" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="700" text-anchor="middle">उत्तर (NORTH)</text>
+  <text x="250" y="148" fill="#ffffffaa" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">KUBERA · कुबेर</text>
+  <text x="250" y="165" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Wealth · Opportunities</text>
+
+  <!-- Top-Right: North-East (Ishanya) -->
+  <text x="364" y="130" fill="#e8d7b3" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" text-anchor="middle">ईशान्य (NE)</text>
+  <text x="364" y="148" fill="#ffffffaa" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">WATER · जल</text>
+  <text x="364" y="165" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Sanctuary · Meditation</text>
+
+  <!-- Mid-Left: West (Varuna) -->
+  <text x="136" y="244" fill="#e8d7b3" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" text-anchor="middle">पश्चिम (WEST)</text>
+  <text x="136" y="262" fill="#ffffffaa" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">VARUNA · वरुण</text>
+  <text x="136" y="278" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Stability · Profit</text>
+
+  <!-- Mid-Right: East (Indra / Surya) -->
+  <text x="364" y="244" fill="#e8d7b3" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" text-anchor="middle">पूर्व (EAST)</text>
+  <text x="364" y="262" fill="#ffffffaa" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">INDRA · इन्द्र</text>
+  <text x="364" y="278" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Vitality · Growth</text>
+
+  <!-- Bottom-Left: South-West (Nairutya) -->
+  <text x="136" y="358" fill="#e8d7b3" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" text-anchor="middle">नैऋत्य (SW)</text>
+  <text x="136" y="376" fill="#ffffffaa" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">EARTH · पृथ्वी</text>
+  <text x="136" y="392" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Master Bedroom · Lead</text>
+
+  <!-- Bottom-Center: South (Yama) -->
+  <text x="250" y="358" fill="#e8d7b3" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="700" text-anchor="middle">दक्षिण (SOUTH)</text>
+  <text x="250" y="376" fill="#ffffffaa" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">YAMA · यम</text>
+  <text x="250" y="392" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Fame · Strength</text>
+
+  <!-- Bottom-Right: South-East (Agni) -->
+  <text x="364" y="358" fill="#e8d7b3" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" text-anchor="middle">आग्नेय (SE)</text>
+  <text x="364" y="376" fill="#ffffffaa" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">FIRE · अग्नि</text>
+  <text x="364" y="392" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Kitchen · Energy</text>
+
+  <!-- Cardinal Compass Markers -->
+  <text x="250" y="60" fill="#e8d7b3" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle">N ▲</text>
+  <text x="250" y="455" fill="#e8d7b3" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle">S ▼</text>
+  <text x="445" y="254" fill="#e8d7b3" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle">E ▶</text>
+  <text x="55" y="254" fill="#e8d7b3" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle">◀ W</text>
+
+  <!-- Footer Label -->
+  <text x="250" y="482" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="11" letter-spacing="3" text-anchor="middle">VASTU PURUSHA MANDALA · SPATIAL HARMONY</text>
+</svg>

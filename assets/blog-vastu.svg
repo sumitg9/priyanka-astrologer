@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgold_blog-vastu" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8e7"/>
+      <stop offset="50%" stop-color="#c8a66b"/>
+      <stop offset="100%" stop-color="#8a6924"/>
+    </linearGradient>
+    <radialGradient id="rbg_blog-vastu" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1e2836"/>
+      <stop offset="70%" stop-color="#141724"/>
+      <stop offset="100%" stop-color="#0d0f17"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#rbg_blog-vastu)" rx="8"/>
+  <rect x="12" y="12" width="576" height="316" fill="none" stroke="url(#bgold_blog-vastu)" stroke-width="1" stroke-opacity="0.35" rx="6"/>
+  <rect x="20" y="20" width="560" height="300" fill="none" stroke="url(#bgold_blog-vastu)" stroke-width="0.75" stroke-dasharray="4,4" stroke-opacity="0.2"/>
+
+  <!-- Celestial Rings & Geometry -->
+  <circle cx="300" cy="140" r="105" fill="none" stroke="url(#bgold_blog-vastu)" stroke-width="1.2" stroke-opacity="0.3"/>
+  <circle cx="300" cy="140" r="75" fill="none" stroke="url(#bgold_blog-vastu)" stroke-width="0.8" stroke-dasharray="3,5" stroke-opacity="0.4"/>
+  <circle cx="300" cy="140" r="42" fill="#c8a66b" fill-opacity="0.12"/>
+
+  <!-- Starry Constellation Dots -->
+  <circle cx="100" cy="80" r="1.5" fill="#f5ecd5" opacity="0.6"/>
+  <circle cx="490" cy="90" r="1.8" fill="#f5ecd5" opacity="0.7"/>
+  <circle cx="160" cy="220" r="1.2" fill="#c8a66b" opacity="0.5"/>
+  <circle cx="450" cy="210" r="1.5" fill="#f5ecd5" opacity="0.6"/>
+  <circle cx="220" cy="60" r="1.2" fill="#c8a66b" opacity="0.7"/>
+  <circle cx="380" cy="70" r="1.6" fill="#f5ecd5" opacity="0.5"/>
+
+  <!-- Central Glyphs -->
+  <text x="300" y="150" fill="#fff8e8" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="700" letter-spacing="6" text-anchor="middle">☵ ☲ ☷</text>
+
+  <!-- Category Tag -->
+  <text x="300" y="65" fill="#c8a66b" font-family="'DM Sans', sans-serif" font-size="11" font-weight="700" letter-spacing="3" text-anchor="middle">✦ VASTU SHASTRA</text>
+
+  <!-- Title -->
+  <text x="300" y="225" fill="#fbf8f1" font-family="'Cormorant Garamond', Georgia, serif" font-size="25" font-weight="600" text-anchor="middle">Spatial Energy & Harmony</text>
+  <text x="300" y="255" fill="#e8d7b3" font-family="'DM Sans', sans-serif" font-size="12" letter-spacing="1" text-anchor="middle">Balancing the 5 elements in your home</text>
+
+  <!-- Bottom Accent Line -->
+  <line x1="240" y1="280" x2="360" y2="280" stroke="url(#bgold_blog-vastu)" stroke-width="1" stroke-opacity="0.6"/>
+</svg>
