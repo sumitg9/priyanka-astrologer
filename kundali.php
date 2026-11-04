@@ -3,7 +3,7 @@ $pageTitle = "Janam Kundali Analysis & Vedic Birth Chart Consultation | Priyanka
 $pageDescription = "In-depth Vedic Janam Kundali analysis, D9 Navamsha chart readings, Mahadasha timeline predictions, and classical remedies by Priyanka Dey in Siliguri and online worldwide.";
 $pageKeywords = "Kundali Analysis Siliguri, Janam Kundali reading, Vedic birth chart, Navamsha D9 analysis, Mahadasha predictions, Kundali dosha remedies Siliguri, Priyanka Dey";
 $canonicalUrl = "https://priyankadey.com/kundali.php";
-$ogImage = "https://priyankadey.com/assets/kundali.jpg";
+$ogImage = "https://priyankadey.com/assets/images/kundali.jpg";
 $activeNav = "kundali";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -218,7 +218,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/kundali.jpg"
+          <img class="portrait" src="assets/images/kundali.jpg"
             alt="Vedic Janam Kundali birth chart analysis and astrological calculations in Siliguri" width="896"
             height="1200" loading="lazy" decoding="async">
         </div>
@@ -331,7 +331,7 @@ include __DIR__ . '/header.php';
     <section class="section">
       <div class="container split">
         <div>
-          <img class="portrait" src="assets/vedic-kundali.jpg"
+          <img class="portrait" src="assets/images/vedic-kundali.jpg"
             alt="Vedic Janam Kundali diagram chart showing planetary placements and houses" width="1200" height="896"
             loading="lazy" decoding="async">
         </div>

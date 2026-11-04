@@ -3,7 +3,7 @@ $pageTitle = "Details Needed for Kundali Analysis: Lagna, Navamsha &amp; Dashas 
 $pageDescription = "Discover the exact birth coordinates required for accurate Janam Kundali analysis with Priyanka Dey. Learn why birth time precision, Lagna, Navamsha D9, and Dashas are critical.";
 $pageKeywords = "Details needed for Kundali analysis, birth time accuracy astrology, Lagna chart calculation, Navamsha D9 division, Vimshottari Mahadasha timing, birth rectification astrology, Priyanka Dey Kundali Siliguri";
 $canonicalUrl = "https://priyankadey.com/blog/details-needed-for-kundali-analysis-lagna-navamsha-dashas.php";
-$ogImage = "https://priyankadey.com/assets/vedic-kundali.jpg";
+$ogImage = "https://priyankadey.com/assets/images/vedic-kundali.jpg";
 $activeNav = "article";
 $basePath = '../';
 $isArticle = true;
@@ -17,7 +17,7 @@ $extraHead = <<<'EXTRAHEAD'
         "@id": "https://priyankadey.com/blog/details-needed-for-kundali-analysis-lagna-navamsha-dashas.php#article",
         "headline": "Details Needed for Kundali Analysis: Lagna, Navamsha & Dashas",
         "description": "A comprehensive guide explaining the vital birth coordinates required for precise Vedic Kundali generation, birth time rectification, Lagna computation, and Navamsha D9 analysis.",
-        "image": "https://priyankadey.com/assets/vedic-kundali.jpg",
+        "image": "https://priyankadey.com/assets/images/vedic-kundali.jpg",
         "datePublished": "2026-11-02T09:00:00+05:30",
         "dateModified": "2026-11-04T13:40:00+05:30",
         "author": {
@@ -109,7 +109,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Featured Media Header -->
       <div class="article-featured-media">
-        <img src="../assets/vedic-kundali.jpg" alt="Vedic Kundali birth chart analysis with Lagna, Navamsha and Dashas"
+        <img src="../assets/images/vedic-kundali.jpg" alt="Vedic Kundali birth chart analysis with Lagna, Navamsha and Dashas"
           width="1200" height="896" loading="eager" decoding="async">
         <div class="article-caption">
           The Janam Kundali Grid: Mathematical calculation of planetary degrees, house cusps, and harmonic divisions
@@ -251,7 +251,7 @@ include __DIR__ . '/../header.php';
         </div>
 
         <div style="margin:35px 0;">
-          <img src="../assets/kundali-horoscope.jpg"
+          <img src="../assets/images/kundali-horoscope.jpg"
             alt="Vedic horoscope chart analysis with planetary degrees and houses" width="896" height="1200"
             style="display:block;max-width:440px;height:auto;margin:0 auto;width:100%;border-radius:6px;border:1px solid rgba(200,166,107,0.25);box-shadow:0 12px 30px rgba(0,0,0,0.4);"
             loading="lazy">
@@ -375,7 +375,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Author Bio Card -->
       <div class="author-bio-card">
-        <img class="author-bio-img" src="../assets/priyanka-dey.jpg"
+        <img class="author-bio-img" src="../assets/images/priyanka-dey.jpg"
           alt="Priyanka Dey Vedic Astrologer and Kundali Specialist in Siliguri" width="90" height="90" loading="lazy">
         <div class="author-bio-content">
           <div class="author-bio-name">Priyanka Dey</div>

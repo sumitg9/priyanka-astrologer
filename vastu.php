@@ -3,7 +3,7 @@ $pageTitle = "Vastu Shastra Consultation in Siliguri &amp; Online | Priyanka Dey
 $pageDescription = "Professional Vastu Shastra consultation for homes, offices, and commercial plots by Priyanka Dey in Siliguri and online. Elemental harmonisation without structural demolition.";
 $pageKeywords = "Vastu Shastra Siliguri, Vastu consultant in Siliguri, residential vastu audit, commercial office vastu, vastu without demolition, Priyanka Dey vastu";
 $canonicalUrl = "https://priyankadey.com/vastu.php";
-$ogImage = "https://priyankadey.com/assets/vastu1.jpg";
+$ogImage = "https://priyankadey.com/assets/images/vastu1.jpg";
 $activeNav = "vastu";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -219,7 +219,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/vastu.jpg"
+          <img class="portrait" src="assets/images/vastu.jpg"
             alt="Vastu Shastra architectural floor plan audit and spatial consultation in Siliguri" width="896"
             height="1200" loading="lazy" decoding="async">
         </div>
@@ -327,7 +327,7 @@ include __DIR__ . '/header.php';
     <section class="section" id="mandala">
       <div class="container split">
         <div>
-          <img class="portrait" src="assets/vastu1.jpg"
+          <img class="portrait" src="assets/images/vastu1.jpg"
             alt="Harmonious residential and commercial architectural interior aligned with Vastu Shastra principles"
             width="1200" height="896" loading="lazy" decoding="async">
         </div>

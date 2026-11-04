@@ -119,7 +119,7 @@ $base = isset($basePath) ? $basePath : '';
   </div>
 <?php endif; ?>
 
-  <script src="<?php echo $base; ?>script.js"></script>
+  <script src="<?php echo $base; ?>assets/js/script.js"></script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@ $pageTitle = "Sun Signs vs. Moon Signs: Decoding Your Complete Horoscope | Priya
 $pageDescription = "Understand the synergy between Sun sign, Moon sign (Rashi), and Ascendant (Lagna) with Priyanka Dey. Learn how the Vedic big three shape personality and transits.";
 $pageKeywords = "Sun signs vs Moon signs, Vedic Moon sign Rashi, Ascendant Lagna, complete horoscope guide, Vedic astrology big three, Moon sign compatibility, Gochara transits, Priyanka Dey horoscope";
 $canonicalUrl = "https://priyankadey.com/blog/sun-signs-vs-moon-signs-decoding-your-complete-horoscope.php";
-$ogImage = "https://priyankadey.com/assets/horoscope1.jpg";
+$ogImage = "https://priyankadey.com/assets/images/horoscope1.jpg";
 $activeNav = "article";
 $basePath = '../';
 $isArticle = true;
@@ -17,7 +17,7 @@ $extraHead = <<<'EXTRAHEAD'
         "@id": "https://priyankadey.com/blog/sun-signs-vs-moon-signs-decoding-your-complete-horoscope.php#article",
         "headline": "Sun Signs vs. Moon Signs: Decoding Your Complete Horoscope",
         "description": "Comprehensive guide to understanding the Vedic astrological trinity: Ascendant (Lagna), Moon sign (Chandra Rashi), and Sun sign (Surya Rashi), and how they interact with planetary transits.",
-        "image": "https://priyankadey.com/assets/horoscope1.jpg",
+        "image": "https://priyankadey.com/assets/images/horoscope1.jpg",
         "datePublished": "2026-11-01T09:00:00+05:30",
         "dateModified": "2026-11-04T13:30:00+05:30",
         "author": {
@@ -110,7 +110,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Featured Media Header -->
       <div class="article-featured-media">
-        <img src="../assets/horoscope1.jpg" alt="Zodiac horoscope wheel comparing Sun sign, Moon sign and Ascendant"
+        <img src="../assets/images/horoscope1.jpg" alt="Zodiac horoscope wheel comparing Sun sign, Moon sign and Ascendant"
           width="1200" height="896" loading="eager" decoding="async">
         <div class="article-caption">
           The Cosmic Trinity: How your Ascendant (body), Moon sign (mind), and Sun sign (soul) intertwine within the
@@ -244,7 +244,7 @@ include __DIR__ . '/../header.php';
         </p>
 
         <div style="margin:35px 0;">
-          <img src="../assets/horoscope.jpg" alt="Vedic horoscope zodiac wheel and astrological consultation chart"
+          <img src="../assets/images/horoscope.jpg" alt="Vedic horoscope zodiac wheel and astrological consultation chart"
             width="896" height="1200"
             style="display:block;max-width:440px;height:auto;margin:0 auto;width:100%;border-radius:6px;border:1px solid rgba(200,166,107,0.25);box-shadow:0 12px 30px rgba(0,0,0,0.4);"
             loading="lazy">
@@ -372,7 +372,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Author Bio Card -->
       <div class="author-bio-card">
-        <img class="author-bio-img" src="../assets/priyanka-dey.jpg"
+        <img class="author-bio-img" src="../assets/images/priyanka-dey.jpg"
           alt="Priyanka Dey Vedic Astrologer and Horoscope Consultant in Siliguri" width="90" height="90"
           loading="lazy">
         <div class="author-bio-content">

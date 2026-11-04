@@ -3,7 +3,7 @@ $pageTitle = "Love &amp; Marriage Astrology Consultation in Siliguri | Priyanka 
 $pageDescription = "Vedic love and marriage consultation with Priyanka Dey in Siliguri and online. 7th house Kalatra Bhava, Venus-Jupiter harmony, D9 Navamsha synastry, and marital peace.";
 $pageKeywords = "Love astrology Siliguri, marriage consultation Siliguri, relationship astrology, 7th house Kalatra Bhava, Navamsha D9 marriage, delay in marriage astrology, Priyanka Dey";
 $canonicalUrl = "https://priyankadey.com/marriage-consultation.php";
-$ogImage = "https://priyankadey.com/assets/astrology.jpg";
+$ogImage = "https://priyankadey.com/assets/images/astrology.jpg";
 $activeNav = "marriage-consultation";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -205,7 +205,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/astrology.jpg"
+          <img class="portrait" src="assets/images/astrology.jpg"
             alt="Vedic love and marriage astrology consultation with Priyanka Dey in Siliguri" width="1200" height="896"
             loading="lazy" decoding="async">
         </div>

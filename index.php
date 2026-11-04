@@ -124,7 +124,7 @@ include __DIR__ . '/header.php';
                         <div class="hero-slider-images" id="heroMediaContainer">
                             <!-- Slide 01 Image: Guide Portrait -->
                             <div class="hero-slide-media is-active" data-slide="0">
-                                <img src="assets/priyanka-dey.jpg" alt="Priyanka Dey - Trusted Astrologer in Siliguri">
+                                <img src="assets/images/priyanka-dey.jpg" alt="Priyanka Dey - Trusted Astrologer in Siliguri">
                                 <div class="photo-caption">
                                     <span class="eyebrow">Your Guide</span>
                                     <h2>Priyanka Dey</h2>
@@ -134,8 +134,8 @@ include __DIR__ . '/header.php';
 
                             <!-- Slide 02 Image: Vedic Astrology (Celestial Wheel) -->
                             <div class="hero-slide-media" data-slide="1">
-                                <img src="assets/numerology.jpg" alt="Vedic Astrology Celestial Night Sky"
-                                    onerror="this.onerror=null;this.src='assets/astrology-zodiac-wheel.svg';">
+                                <img src="assets/images/numerology.jpg" alt="Vedic Astrology Celestial Night Sky"
+                                    onerror="this.onerror=null;this.src='assets/images/astrology-zodiac-wheel.svg';">
                                 <div class="photo-caption">
                                     <span class="eyebrow">Numerology</span>
                                     <h2>Numerology Consultation</h2>
@@ -145,8 +145,8 @@ include __DIR__ . '/header.php';
 
                             <!-- Slide 03 Image: Tarot Reading (Mystic Cards) -->
                             <div class="hero-slide-media" data-slide="2">
-                                <img src="assets/tarrot.jpg" alt="Tarot Reading and Intuitive Wisdom"
-                                    onerror="this.onerror=null;this.src='assets/tarot-mystic-card.svg';">
+                                <img src="assets/images/tarrot.jpg" alt="Tarot Reading and Intuitive Wisdom"
+                                    onerror="this.onerror=null;this.src='assets/images/tarot-mystic-card.svg';">
                                 <div class="photo-caption">
                                     <span class="eyebrow">Tarot Card</span>
                                     <h2>Tarot Card Reading</h2>
@@ -156,8 +156,8 @@ include __DIR__ . '/header.php';
 
                             <!-- Slide 04 Image: Vastu Shastra (Sacred Mandala) -->
                             <div class="hero-slide-media" data-slide="3">
-                                <img src="assets/vastu.jpg" alt="Vastu Shastra and Space Harmony"
-                                    onerror="this.onerror=null;this.src='assets/vastu-mandala.svg';">
+                                <img src="assets/images/vastu.jpg" alt="Vastu Shastra and Space Harmony"
+                                    onerror="this.onerror=null;this.src='assets/images/vastu-mandala.svg';">
                                 <div class="photo-caption">
                                     <span class="eyebrow">Vastu Consultation</span>
                                     <h2>Vastu Consultation</h2>
@@ -167,8 +167,8 @@ include __DIR__ . '/header.php';
 
                             <!-- Slide 05 Image: Kundali & Numerology (Cosmic Blueprint) -->
                             <div class="hero-slide-media" data-slide="4">
-                                <img src="assets/kundali-horoscope.jpg" alt="Kundali and Horoscope"
-                                    onerror="this.onerror=null;this.src='assets/kundali-chart.svg';">
+                                <img src="assets/images/kundali-horoscope.jpg" alt="Kundali and Horoscope"
+                                    onerror="this.onerror=null;this.src='assets/images/kundali-chart.svg';">
                                 <div class="photo-caption">
                                     <span class="eyebrow">Kundali - Horoscope</span>
                                     <h2>Kundali Preparation & Analysis</h2>
@@ -184,7 +184,7 @@ include __DIR__ . '/header.php';
         <!-- SECTION: A LITTLE ABOUT ME -->
         <section class="section about-priyanka">
             <div class="container two-col">
-                <img class="portrait" src="assets/priyanka-dey.jpg" alt="Priyanka Dey Astrologer and Consultant">
+                <img class="portrait" src="assets/images/priyanka-dey.jpg" alt="Priyanka Dey Astrologer and Consultant">
                 <div>
                     <p class="eyebrow">A little about me</p>
                     <h2 class="section-title">Personal guidance,<br><em>thoughtfully considered.</em></h2>
@@ -211,7 +211,7 @@ include __DIR__ . '/header.php';
                 <div class="cards cards-3col">
                     <!-- 1. Astrology -->
                     <article class="card">
-                        <img src="assets/horoscope1.jpg" alt="Golden zodiac wheel with planetary symbols"
+                        <img src="assets/images/horoscope1.jpg" alt="Golden zodiac wheel with planetary symbols"
                             loading="lazy">
                         <div class="card-body">
                             <span class="card-number">01 / PERSONAL ASTROLOGY</span>
@@ -224,7 +224,7 @@ include __DIR__ . '/header.php';
 
                     <!-- 2. Tarot Reading -->
                     <article class="card">
-                        <img src="assets/tarot.png" alt="Illustrated Tarot cards arranged on purple velvet"
+                        <img src="assets/images/tarot.png" alt="Illustrated Tarot cards arranged on purple velvet"
                             loading="lazy">
                         <div class="card-body">
                             <span class="card-number">02 / CLARITY & REFLECTION</span>
@@ -237,7 +237,7 @@ include __DIR__ . '/header.php';
 
                     <!-- 3. Vastu Consultation -->
                     <article class="card">
-                        <img src="assets/vastu1.jpg" alt="Traditional Vastu Purusha Mandala with directional markings"
+                        <img src="assets/images/vastu1.jpg" alt="Traditional Vastu Purusha Mandala with directional markings"
                             loading="lazy">
                         <div class="card-body">
                             <span class="card-number">03 / HOME & WORKPLACE</span>
@@ -250,7 +250,7 @@ include __DIR__ . '/header.php';
 
                     <!-- 4. Kundali Analysis -->
                     <article class="card">
-                        <img src="assets/vedic-kundali.jpg"
+                        <img src="assets/images/vedic-kundali.jpg"
                             alt="North Indian Janam Kundali chart with planetary placements" loading="lazy">
                         <div class="card-body">
                             <span class="card-number">04 / UNDERSTAND YOUR BIRTH CHART</span>
@@ -263,7 +263,7 @@ include __DIR__ . '/header.php';
 
                     <!-- 5. Horoscope -->
                     <article class="card">
-                        <img src="assets/horoscope1.jpg" alt="Golden zodiac wheel against a starry background"
+                        <img src="assets/images/horoscope1.jpg" alt="Golden zodiac wheel against a starry background"
                             loading="lazy">
                         <div class="card-body">
                             <span class="card-number">05 / YOUR PERSONAL OUTLOOK</span>
@@ -276,7 +276,7 @@ include __DIR__ . '/header.php';
 
                     <!-- 6. Sacred Numerology -->
                     <article class="card">
-                        <img src="assets/numerology1.jpg" alt="Golden numbers arranged around a geometric pattern"
+                        <img src="assets/images/numerology1.jpg" alt="Golden numbers arranged around a geometric pattern"
                             loading="lazy">
                         <div class="card-body">
                             <span class="card-number">06 / NAME & BIRTH-DATE INSIGHTS</span>
@@ -686,10 +686,10 @@ include __DIR__ . '/header.php';
 
                 <div class="blog-list">
                     <article class="blog-card">
-                        <img src="assets/astrology.jpg"
+                        <img src="assets/images/astrology.jpg"
                             alt="Vedic Astrology birth chart reading and planetary consultation in Siliguri" width="600"
                             height="340" loading="lazy" decoding="async"
-                            onerror="this.onerror=null;this.src='assets/blog-astrology.svg';">
+                            onerror="this.onerror=null;this.src='assets/images/blog-astrology.svg';">
                         <div class="card-body">
                             <span class="date">Vedic Astrology · Natal Charts</span>
                             <h3><a href="astrology.php">What Is a Birth Chart? A Complete Guide to Janam Kundali</a>
@@ -706,10 +706,10 @@ include __DIR__ . '/header.php';
                     </article>
 
                     <article class="blog-card">
-                        <img src="assets/vastu1.jpg"
+                        <img src="assets/images/vastu1.jpg"
                             alt="Vastu Shastra residential spatial energy audit and five elements alignment" width="600"
                             height="340" loading="lazy" decoding="async"
-                            onerror="this.onerror=null;this.src='assets/blog-vastu.svg';">
+                            onerror="this.onerror=null;this.src='assets/images/blog-vastu.svg';">
                         <div class="card-body">
                             <span class="date">Vastu Shastra · Space Harmony</span>
                             <h3><a href="vastu.php">Vastu Shastra for Home &amp; Office: Aligning the Five Elements</a>
@@ -726,10 +726,10 @@ include __DIR__ . '/header.php';
                     </article>
 
                     <article class="blog-card">
-                        <img src="assets/numerology1.jpg"
+                        <img src="assets/images/numerology1.jpg"
                             alt="Sacred Numerology life path number calculation and destiny vibration analysis"
                             width="600" height="340" loading="lazy" decoding="async"
-                            onerror="this.onerror=null;this.src='assets/blog-numerology.svg';">
+                            onerror="this.onerror=null;this.src='assets/images/blog-numerology.svg';">
                         <div class="card-body">
                             <span class="date">Numerology · Sacred Vibrations</span>
                             <h3><a href="numerology.php">Sacred Numerology Demystified: Life Path &amp; Name

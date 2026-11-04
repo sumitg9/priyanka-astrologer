@@ -3,7 +3,7 @@ $pageTitle = "Consultation Services | Vedic Astrology, Kundali, Tarot &amp; Vast
 $pageDescription = "Explore the full spectrum of consultations by Priyanka Dey in Siliguri and online: Vedic Astrology, Kundali Analysis, Kundali Matching, Tarot Reading, Numerology, Vastu Shastra, and Muhurta selection.";
 $pageKeywords = "Astrology services Siliguri, Kundali matching Siliguri, Tarot card reading, Vastu Shastra audit, Numerology consultation, Priyanka Dey services";
 $canonicalUrl = "https://priyankadey.com/services.php";
-$ogImage = "https://priyankadey.com/assets/astrology.jpg";
+$ogImage = "https://priyankadey.com/assets/images/astrology.jpg";
 $activeNav = "services";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -163,7 +163,7 @@ include __DIR__ . '/header.php';
         <div class="cards cards-3col" style="margin-top:45px">
           <!-- 01. Astrology Consultation -->
           <article class="card" id="astrology">
-            <img src="assets/astrology.jpg" alt="Vedic Astrology Consultation in Siliguri" width="600" height="340"
+            <img src="assets/images/astrology.jpg" alt="Vedic Astrology Consultation in Siliguri" width="600" height="340"
               loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">01 / Cosmic Wisdom</span>
@@ -176,7 +176,7 @@ include __DIR__ . '/header.php';
 
           <!-- 02. Kundali Analysis -->
           <article class="card" id="kundali">
-            <img src="assets/kundali.jpg" alt="Vedic Janam Kundali Analysis in Siliguri" width="600" height="340"
+            <img src="assets/images/kundali.jpg" alt="Vedic Janam Kundali Analysis in Siliguri" width="600" height="340"
               loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">02 / Birth Chart</span>
@@ -189,7 +189,7 @@ include __DIR__ . '/header.php';
 
           <!-- 03. Kundali Matching -->
           <article class="card" id="kundali-matching">
-            <img src="assets/kundali-horoscope.jpg" alt="Kundali Matching Gun Milan for Marriage" width="600"
+            <img src="assets/images/kundali-horoscope.jpg" alt="Kundali Matching Gun Milan for Marriage" width="600"
               height="340" loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">03 / Sacred Union</span>
@@ -202,7 +202,7 @@ include __DIR__ . '/header.php';
 
           <!-- 04. Tarot Reading -->
           <article class="card" id="tarot">
-            <img src="assets/tarot.png" alt="Intuitive Tarot Card Reading Consultation" width="600" height="340"
+            <img src="assets/images/tarot.png" alt="Intuitive Tarot Card Reading Consultation" width="600" height="340"
               loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">04 / Intuitive Soul</span>
@@ -215,7 +215,7 @@ include __DIR__ . '/header.php';
 
           <!-- 05. Numerology -->
           <article class="card" id="numerology">
-            <img src="assets/numerology.jpg" alt="Sacred Numerology and Name Correction" width="600" height="340"
+            <img src="assets/images/numerology.jpg" alt="Sacred Numerology and Name Correction" width="600" height="340"
               loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">05 / Sacred Numbers</span>
@@ -228,7 +228,7 @@ include __DIR__ . '/header.php';
 
           <!-- 06. Vastu Consultation -->
           <article class="card" id="vastu">
-            <img src="assets/vastu.jpg" alt="Vastu Shastra Space Audit in Siliguri" width="600" height="340"
+            <img src="assets/images/vastu.jpg" alt="Vastu Shastra Space Audit in Siliguri" width="600" height="340"
               loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">06 / Space Harmony</span>
@@ -241,7 +241,7 @@ include __DIR__ . '/header.php';
 
           <!-- 07. Career & Business Guidance -->
           <article class="card" id="career">
-            <img src="assets/numbers.jpg" alt="Career and Business Astrology Guidance" width="600" height="340"
+            <img src="assets/images/numbers.jpg" alt="Career and Business Astrology Guidance" width="600" height="340"
               loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">07 / Auspicious Growth</span>
@@ -255,7 +255,7 @@ include __DIR__ . '/header.php';
 
           <!-- 08. Love & Marriage Consultation -->
           <article class="card" id="marriage">
-            <img src="assets/tarrot.jpg" alt="Love and Marriage Astrological Consultation" width="600" height="340"
+            <img src="assets/images/tarrot.jpg" alt="Love and Marriage Astrological Consultation" width="600" height="340"
               loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">08 / Relationship Harmony</span>
@@ -269,7 +269,7 @@ include __DIR__ . '/header.php';
 
           <!-- 09. Muhurta Selection -->
           <article class="card" id="muhurta">
-            <img src="assets/horoscope.jpg" alt="Muhurta Selection Auspicious Timing" width="600" height="340"
+            <img src="assets/images/horoscope.jpg" alt="Muhurta Selection Auspicious Timing" width="600" height="340"
               loading="lazy" decoding="async">
             <div class="card-body">
               <span class="card-number">09 / Auspicious Timing</span>
@@ -287,7 +287,7 @@ include __DIR__ . '/header.php';
     <!-- SECTION: NOT SURE WHERE TO BEGIN (WITH PHOTO) -->
     <section class="section" id="where-to-begin">
       <div class="container two-col">
-        <img class="portrait" src="assets/priyanka-dey.jpg" alt="Priyanka Dey Consultation Guidance in Siliguri"
+        <img class="portrait" src="assets/images/priyanka-dey.jpg" alt="Priyanka Dey Consultation Guidance in Siliguri"
           width="541" height="963" loading="lazy" decoding="async">
         <div>
           <p class="eyebrow">Personal Guidance</p>

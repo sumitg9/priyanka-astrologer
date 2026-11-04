@@ -3,7 +3,7 @@ $pageTitle = "Auspicious Muhurta Selection in Siliguri | Priyanka Dey";
 $pageDescription = "Expert Muhurta Selection by Priyanka Dey in Siliguri &amp; online. Calculate auspicious astrological timings for weddings, Griha Pravesh, business launches &amp; property.";
 $pageKeywords = "Muhurta selection Siliguri, auspicious time calculator, shubh muhurat Siliguri, vedic electional astrology, vivaha muhurta, griha pravesh timing, Priyanka Dey";
 $canonicalUrl = "https://priyankadey.com/muhurta.php";
-$ogImage = "https://priyankadey.com/assets/horoscope1.jpg";
+$ogImage = "https://priyankadey.com/assets/images/horoscope1.jpg";
 $activeNav = "muhurta";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -205,7 +205,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/horoscope1.jpg"
+          <img class="portrait" src="assets/images/horoscope1.jpg"
             alt="Auspicious Muhurta selection and Vedic Panchanga consultation in Siliguri" width="1200" height="896"
             loading="lazy" decoding="async">
         </div>

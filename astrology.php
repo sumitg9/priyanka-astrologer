@@ -3,7 +3,7 @@ $pageTitle = "Vedic Astrology Consultation in Siliguri | Birth Chart & Kundali |
 $pageDescription = "Book an authentic Vedic astrology consultation with Priyanka Dey in Siliguri or online. Comprehensive Janam Kundali analysis, career & marriage timing, planetary transit remedies, and confidential life guidance. Reserve your session today.";
 $pageKeywords = "Vedic Astrologer Siliguri, Astrology Consultation Siliguri, Best Astrologer in Siliguri, Janam Kundali reading, career astrology, marriage horoscope compatibility, planetary transit remedies, Priyanka Dey";
 $canonicalUrl = "https://priyankadey.com/astrology.php";
-$ogImage = "https://priyankadey.com/assets/astrology.jpg";
+$ogImage = "https://priyankadey.com/assets/images/astrology.jpg";
 $activeNav = "astrology";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -182,7 +182,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div class="service-media-wrap">
-          <img class="portrait" src="assets/astrology.jpg"
+          <img class="portrait" src="assets/images/astrology.jpg"
             alt="Vedic Astrology consultation birth chart tools and celestial compass in Siliguri" width="1200"
             height="896" loading="lazy" decoding="async">
           <div class="service-media-caption">&#10022; Traditional Vedic Jyotish &amp; Planetary Timing</div>

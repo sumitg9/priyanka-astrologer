@@ -21,7 +21,7 @@ include __DIR__ . '/header.php';
     <!-- BIO SECTION WITH PORTRAIT -->
     <section class="section">
       <div class="container two-col">
-        <img class="portrait" src="assets/priyanka-dey.jpg" alt="Priyanka Dey Astrologer and Consultant">
+        <img class="portrait" src="assets/images/priyanka-dey.jpg" alt="Priyanka Dey Astrologer and Consultant">
         <div>
           <p class="eyebrow">Meet your consultant</p>
           <h2 class="section-title">Hello, I’m <em>Priyanka Dey.</em></h2>
@@ -46,7 +46,7 @@ include __DIR__ . '/header.php';
       <!-- Right-Side Celestial Zodiac Wheel Background -->
       <div class="trust-wheel-backdrop" aria-hidden="true">
         <div class="trust-wheel-glow"></div>
-        <img class="trust-wheel-graphic" src="assets/trust-zodiac-wheel.svg" alt="" loading="lazy">
+        <img class="trust-wheel-graphic" src="assets/images/trust-zodiac-wheel.svg" alt="" loading="lazy">
       </div>
 
       <div class="container trust-stats-container">
@@ -120,7 +120,7 @@ include __DIR__ . '/header.php';
         <div class="cards" style="margin-top:45px">
           <!-- Astrology & Kundali -->
           <article class="card">
-            <img src="assets/kundali-chart.svg" alt="Vedic Kundali Chart Representation" loading="lazy">
+            <img src="assets/images/kundali-chart.svg" alt="Vedic Kundali Chart Representation" loading="lazy">
             <div class="card-body">
               <span class="card-number">Vedic Tradition</span>
               <h3>Astrology & Kundali</h3>
@@ -132,7 +132,7 @@ include __DIR__ . '/header.php';
 
           <!-- Vastu Shastra -->
           <article class="card">
-            <img src="assets/vastu-mandala.svg" alt="Vastu Purusha Mandala Alignment" loading="lazy">
+            <img src="assets/images/vastu-mandala.svg" alt="Vastu Purusha Mandala Alignment" loading="lazy">
             <div class="card-body">
               <span class="card-number">Spatial Science</span>
               <h3>Vastu Shastra</h3>
@@ -144,7 +144,7 @@ include __DIR__ . '/header.php';
 
           <!-- Tarot Reading -->
           <article class="card">
-            <img src="assets/tarot-mystic-card.svg" alt="Tarot Archetypes and Reflection" loading="lazy">
+            <img src="assets/images/tarot-mystic-card.svg" alt="Tarot Archetypes and Reflection" loading="lazy">
             <div class="card-body">
               <span class="card-number">Symbolic Wisdom</span>
               <h3>Tarot Reading</h3>
@@ -156,7 +156,7 @@ include __DIR__ . '/header.php';
 
           <!-- Numerology -->
           <article class="card">
-            <img src="assets/sacred-numerology.svg" alt="Sacred Numerology Lo Shu Matrix" loading="lazy">
+            <img src="assets/images/sacred-numerology.svg" alt="Sacred Numerology Lo Shu Matrix" loading="lazy">
             <div class="card-body">
               <span class="card-number">Numeric Resonance</span>
               <h3>Numerology</h3>
@@ -172,7 +172,7 @@ include __DIR__ . '/header.php';
     <!-- WHAT YOU CAN EXPECT (WITH SECOND PORTRAIT) -->
     <section class="section soft">
       <div class="container two-col">
-        <img class="portrait" src="assets/priyanka-dey-alternate.png" alt="Priyanka Dey Consultation Experience">
+        <img class="portrait" src="assets/images/priyanka-dey-alternate.png" alt="Priyanka Dey Consultation Experience">
         <div>
           <p class="eyebrow">The Experience</p>
           <h2 class="section-title">Respectful. Personal. <em>Clear.</em></h2>

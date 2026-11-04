@@ -3,7 +3,7 @@ $pageTitle = "Sacred Numerology Demystified: Life Path, Mulank &amp; Name Correc
 $pageDescription = "Discover how Chaldean and Pythagorean numerology reveal your vibrational blueprint. Learn how Life Path (Bhagyank), Birth Number (Mulank), and personalized name spelling correction clear roadblocks to career, marriage, and wealth.";
 $pageKeywords = "Sacred numerology demystified, Life Path number calculation, Chaldean name correction, Mulank Bhagyank calculator, business name numerology, Priyanka Dey numerologist Siliguri, phone number numerology";
 $canonicalUrl = "https://priyankadey.com/blog/sacred-numerology-demystified-life-path-name-correction.php";
-$ogImage = "https://priyankadey.com/assets/numerology1.jpg";
+$ogImage = "https://priyankadey.com/assets/images/numerology1.jpg";
 $activeNav = "article";
 $basePath = '../';
 $isArticle = true;
@@ -17,7 +17,7 @@ $extraHead = <<<'EXTRAHEAD'
         "@id": "https://priyankadey.com/blog/sacred-numerology-demystified-life-path-name-correction.php#article",
         "headline": "Sacred Numerology Demystified: Life Path & Name Correction",
         "description": "Discover how Chaldean and Pythagorean numerology reveal your vibrational blueprint. Learn how Life Path (Bhagyank), Birth Number (Mulank), and personalized name spelling correction clear roadblocks to career, marriage, and wealth.",
-        "image": "https://priyankadey.com/assets/numerology1.jpg",
+        "image": "https://priyankadey.com/assets/images/numerology1.jpg",
         "datePublished": "2026-11-04T12:00:00+05:30",
         "dateModified": "2026-11-04T14:00:00+05:30",
         "author": {
@@ -106,7 +106,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Featured Media Header -->
       <div class="article-featured-media">
-        <img src="../assets/numerology1.jpg" alt="Sacred Numerology ancient mystical parchment and mathematical calculations for life path and destiny numbers"
+        <img src="../assets/images/numerology1.jpg" alt="Sacred Numerology ancient mystical parchment and mathematical calculations for life path and destiny numbers"
           width="1200" height="896" loading="eager" decoding="async">
         <div class="article-caption">
           Figure 1: Sacred numerological matrices encode planetary frequencies into geometric harmonics, establishing the foundational vibrational frequency of your life path.
@@ -196,7 +196,7 @@ include __DIR__ . '/../header.php';
         </p>
 
         <div style="margin:35px 0;">
-          <img src="../assets/numbers.jpg" alt="Vedic and Chaldean numerical vibration matrix with astrological planetary rulers" width="514" height="688"
+          <img src="../assets/images/numbers.jpg" alt="Vedic and Chaldean numerical vibration matrix with astrological planetary rulers" width="514" height="688"
             style="display:block;max-width:380px;height:auto;margin:0 auto;width:100%;border-radius:6px;border:1px solid rgba(200,166,107,0.25);box-shadow:0 12px 30px rgba(0,0,0,0.4);"
             loading="lazy">
           <p style="font-size:13px;color:rgba(255,255,255,0.65);margin-top:10px;text-align:center;">
@@ -385,7 +385,7 @@ include __DIR__ . '/../header.php';
         </p>
 
         <div style="margin:35px 0;">
-          <img src="../assets/numerology.jpg" alt="Vedic Lo Shu Grid 3x3 magic square showing planes of thought, will, and action" width="514" height="688"
+          <img src="../assets/images/numerology.jpg" alt="Vedic Lo Shu Grid 3x3 magic square showing planes of thought, will, and action" width="514" height="688"
             style="display:block;max-width:380px;height:auto;margin:0 auto;width:100%;border-radius:6px;border:1px solid rgba(200,166,107,0.25);box-shadow:0 12px 30px rgba(0,0,0,0.4);"
             loading="lazy">
           <p style="font-size:13px;color:rgba(255,255,255,0.65);margin-top:10px;text-align:center;">
@@ -487,7 +487,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Author Bio Card -->
       <div class="author-bio-card">
-        <img class="author-bio-img" src="../assets/priyanka-dey.jpg"
+        <img class="author-bio-img" src="../assets/images/priyanka-dey.jpg"
           alt="Priyanka Dey Vedic Astrologer, Tarot Reader and Certified Numerologist in Siliguri" width="90" height="90" loading="lazy">
         <div class="author-bio-content">
           <div class="author-bio-name">Priyanka Dey</div>

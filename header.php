@@ -8,7 +8,7 @@ $title = isset($pageTitle) ? $pageTitle : 'Priyanka Dey | Vedic Astrologer & Spi
 $desc = isset($pageDescription) ? $pageDescription : 'Ethical Vedic astrology, Janam Kundali analysis, Vastu Shastra audits, Tarot consultations, and Sacred Numerology in Siliguri, West Bengal.';
 $keywords = isset($pageKeywords) ? $pageKeywords : 'astrologer in siliguri, vedic astrology, janam kundali, vastu consultant siliguri, tarot reading, numerology, priyanka dey';
 $canonical = isset($canonicalUrl) ? $canonicalUrl : 'https://priyankadey.com/index.php';
-$ogImg = isset($ogImage) ? $ogImage : $base . 'assets/astrology.jpg';
+$ogImg = isset($ogImage) ? $ogImage : $base . 'assets/images/astrology.jpg';
 $bClass = isset($bodyClass) ? $bodyClass : '';
 $active = isset($activeNav) ? $activeNav : '';
 ?>
@@ -43,8 +43,8 @@ $active = isset($activeNav) ? $activeNav : '';
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Cinzel:wght@500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="<?php echo $base; ?>styles.css">
-  <link rel="icon" type="image/svg+xml" href="<?php echo $base; ?>assets/sun-artwork.svg">
+  <link rel="stylesheet" href="<?php echo $base; ?>assets/css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="<?php echo $base; ?>assets/images/sun-artwork.svg">
 
   <?php if (!empty($extraHead)) echo $extraHead; ?>
 </head>

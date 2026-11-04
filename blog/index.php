@@ -30,7 +30,7 @@ include __DIR__ . '/../header.php';
           <!-- Article 1: Vedic Astrology -->
           <article class="blog-card">
             <a href="what-is-a-birth-chart-a-complete-guide-to-janam-kundali.php" style="display:block;overflow:hidden;" aria-label="Read What Is a Birth Chart? A Complete Guide to Janam Kundali">
-              <img src="../assets/astrology.jpg" alt="Vedic Astrology birth chart reading and planetary consultation in Siliguri" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/blog-astrology.svg';">
+              <img src="../assets/images/astrology.jpg" alt="Vedic Astrology birth chart reading and planetary consultation in Siliguri" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/images/blog-astrology.svg';">
             </a>
             <div class="card-body">
               <span class="date">Vedic Astrology · Foundations</span>
@@ -43,7 +43,7 @@ include __DIR__ . '/../header.php';
           <!-- Article 2: Vastu Shastra -->
           <article class="blog-card">
             <a href="vastu-shastra-for-home-and-office-aligning-the-five-elements.php" style="display:block;overflow:hidden;" aria-label="Read Vastu Shastra for Home &amp; Office: Aligning the Five Elements">
-              <img src="../assets/vastu1.jpg" alt="Vastu Shastra space energy audit for home and office with Priyanka Dey" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/blog-vastu.svg';">
+              <img src="../assets/images/vastu1.jpg" alt="Vastu Shastra space energy audit for home and office with Priyanka Dey" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/images/blog-vastu.svg';">
             </a>
             <div class="card-body">
               <span class="date">Vastu Shastra · Space Energy</span>
@@ -56,7 +56,7 @@ include __DIR__ . '/../header.php';
           <!-- Article 3: Tarot Reading -->
           <article class="blog-card">
             <a href="tarot-reading-essentials-preparing-for-an-intuitive-session.php" style="display:block;overflow:hidden;" aria-label="Read Tarot Reading Essentials: Preparing for an Intuitive Session">
-              <img src="../assets/tarot.png" alt="Tarot cards spread and intuitive reading consultation with Priyanka Dey" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/blog-tarot.svg';">
+              <img src="../assets/images/tarot.png" alt="Tarot cards spread and intuitive reading consultation with Priyanka Dey" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/images/blog-tarot.svg';">
             </a>
             <div class="card-body">
               <span class="date">Tarot · Intuitive Reflection</span>
@@ -69,7 +69,7 @@ include __DIR__ . '/../header.php';
           <!-- Article 4: Horoscope -->
           <article class="blog-card">
             <a href="sun-signs-vs-moon-signs-decoding-your-complete-horoscope.php" style="display:block;overflow:hidden;" aria-label="Read Sun Signs vs. Moon Signs: Decoding Your Complete Horoscope">
-              <img src="../assets/horoscope1.jpg" alt="Sun Signs vs. Moon Signs: Decoding Your Complete Horoscope with Priyanka Dey" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/blog-horoscope.svg';">
+              <img src="../assets/images/horoscope1.jpg" alt="Sun Signs vs. Moon Signs: Decoding Your Complete Horoscope with Priyanka Dey" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/images/blog-horoscope.svg';">
             </a>
             <div class="card-body">
               <span class="date">Horoscope · Zodiac Wisdom</span>
@@ -82,7 +82,7 @@ include __DIR__ . '/../header.php';
           <!-- Article 5: Kundali Analysis -->
           <article class="blog-card">
             <a href="details-needed-for-kundali-analysis-lagna-navamsha-dashas.php" style="display:block;overflow:hidden;" aria-label="Read Details Needed for Kundali Analysis: Lagna, Navamsha &amp; Dashas">
-              <img src="../assets/kundali.jpg" alt="Details Needed for Kundali Analysis: Lagna, Navamsha &amp; Dashas with Priyanka Dey" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/blog-kundali.svg';">
+              <img src="../assets/images/kundali.jpg" alt="Details Needed for Kundali Analysis: Lagna, Navamsha &amp; Dashas with Priyanka Dey" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/images/blog-kundali.svg';">
             </a>
             <div class="card-body">
               <span class="date">Kundali · Vedic Chart Analysis</span>
@@ -95,7 +95,7 @@ include __DIR__ . '/../header.php';
           <!-- Article 6: Numerology -->
           <article class="blog-card">
             <a href="sacred-numerology-demystified-life-path-name-correction.php" style="display:block;overflow:hidden;" aria-label="Read Sacred Numerology Demystified: Life Path &amp; Name Correction">
-              <img src="../assets/numerology1.jpg" alt="Sacred Numerology destiny calculations and name vibration correction chart" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/blog-numerology.svg';">
+              <img src="../assets/images/numerology1.jpg" alt="Sacred Numerology destiny calculations and name vibration correction chart" width="600" height="340" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/images/blog-numerology.svg';">
             </a>
             <div class="card-body">
               <span class="date">Numerology · Sacred Vibrations</span>

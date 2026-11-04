@@ -3,7 +3,7 @@ $pageTitle = "What Is a Birth Chart? A Complete Guide to Janam Kundali | Priyank
 $pageDescription = "Comprehensive guide to Vedic birth charts (Janam Kundali) by Priyanka Dey. Understand the 12 Bhavas, planetary dignities, Lagna vs. Rashi, Navamsha D9, and Mahadasha timing.";
 $pageKeywords = "What is a birth chart, Janam Kundali guide, Vedic astrology birth chart, 12 houses of astrology, Bhavas in Vedic astrology, Lagna vs Moon sign, Navamsha D9 chart, Priyanka Dey";
 $canonicalUrl = "https://priyankadey.com/blog/what-is-a-birth-chart-a-complete-guide-to-janam-kundali.php";
-$ogImage = "https://priyankadey.com/assets/astrology.jpg";
+$ogImage = "https://priyankadey.com/assets/images/astrology.jpg";
 $activeNav = "article";
 $basePath = '../';
 $isArticle = true;
@@ -17,7 +17,7 @@ $extraHead = <<<'EXTRAHEAD'
         "@id": "https://priyankadey.com/blog/what-is-a-birth-chart-a-complete-guide-to-janam-kundali.php#article",
         "headline": "What Is a Birth Chart? A Complete Guide to Janam Kundali",
         "description": "A comprehensive guide to Vedic birth charts (Janam Kundali), exploring the 12 houses (bhavas), planetary placements, Lagna vs. Rashi, Navamsha D9, and Vimshottari Mahadasha timing.",
-        "image": "https://priyankadey.com/assets/astrology.jpg",
+        "image": "https://priyankadey.com/assets/images/astrology.jpg",
         "datePublished": "2026-10-24T09:00:00+05:30",
         "dateModified": "2026-11-04T12:00:00+05:30",
         "author": {
@@ -109,7 +109,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Featured Media Header -->
       <div class="article-featured-media">
-        <img src="../assets/astrology.jpg" alt="Vedic Janam Kundali birth chart and planetary consultation guide"
+        <img src="../assets/images/astrology.jpg" alt="Vedic Janam Kundali birth chart and planetary consultation guide"
           width="1200" height="896" loading="eager" decoding="async">
         <div class="article-caption">
           The Janam Kundali: An exact mathematical snapshot of celestial coordinates, planetary dignities, and rising
@@ -317,7 +317,7 @@ include __DIR__ . '/../header.php';
         </ul>
 
         <div style="margin:35px 0;">
-          <img src="../assets/vedic-kundali.jpg"
+          <img src="../assets/images/vedic-kundali.jpg"
             alt="Traditional Vedic Janam Kundali diagram and astrological chart format" width="1200" height="896"
             style="width:100%;height:auto;border-radius:6px;border:1px solid rgba(200,166,107,0.25);box-shadow:0 12px 30px rgba(0,0,0,0.4);"
             loading="lazy">
@@ -444,7 +444,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Author Bio Card -->
       <div class="author-bio-card">
-        <img class="author-bio-img" src="../assets/priyanka-dey.jpg"
+        <img class="author-bio-img" src="../assets/images/priyanka-dey.jpg"
           alt="Priyanka Dey Vedic Astrologer and Vastu Consultant in Siliguri" width="90" height="90" loading="lazy">
         <div class="author-bio-content">
           <div class="author-bio-name">Priyanka Dey</div>

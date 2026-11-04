@@ -3,7 +3,7 @@ $pageTitle = "Tarot Card Reading &amp; Intuitive Guidance in Siliguri | Priyanka
 $pageDescription = "Compassionate, confidential tarot card readings with Priyanka Dey in Siliguri and online. Explore Major Arcana archetypes, relationship crossroads, and intuitive spreads.";
 $pageKeywords = "Tarot Reading Siliguri, Tarot card reader in Siliguri, intuitive tarot guidance, relationship tarot spread, career tarot reading, Priyanka Dey tarot";
 $canonicalUrl = "https://priyankadey.com/tarot.php";
-$ogImage = "https://priyankadey.com/assets/tarot.png";
+$ogImage = "https://priyankadey.com/assets/images/tarot.png";
 $activeNav = "tarot";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -217,7 +217,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/tarrot.jpg"
+          <img class="portrait" src="assets/images/tarrot.jpg"
             alt="Priyanka Dey conducting an intuitive tarot card reading with classical card spreads in Siliguri"
             width="514" height="688" loading="lazy" decoding="async">
         </div>
@@ -324,7 +324,7 @@ include __DIR__ . '/header.php';
     <section class="section" id="spreads">
       <div class="container split">
         <div>
-          <img class="portrait" src="assets/tarot.png"
+          <img class="portrait" src="assets/images/tarot.png"
             alt="Classic archetypal tarot card spread layout showing Major and Minor Arcana cards" width="1536"
             height="1024" loading="lazy" decoding="async">
         </div>

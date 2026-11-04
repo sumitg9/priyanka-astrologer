@@ -3,7 +3,7 @@ $pageTitle = "Vastu Shastra for Home &amp; Office: Aligning the Five Elements | 
 $pageDescription = "Practical guide to Vastu Shastra for homes and commercial offices by Priyanka Dey. Discover the Pancha Tattva (5 elements), 16 directional zones, and non-demolition remedies.";
 $pageKeywords = "Vastu Shastra home office, Pancha Tattva 5 elements, Vastu non-demolition remedies, 16 Vastu zones, main door Vastu, kitchen Vastu, office seating Vastu, Priyanka Dey Vastu Siliguri";
 $canonicalUrl = "https://priyankadey.com/blog/vastu-shastra-for-home-and-office-aligning-the-five-elements.php";
-$ogImage = "https://priyankadey.com/assets/vastu1.jpg";
+$ogImage = "https://priyankadey.com/assets/images/vastu1.jpg";
 $activeNav = "article";
 $basePath = '../';
 $isArticle = true;
@@ -17,7 +17,7 @@ $extraHead = <<<'EXTRAHEAD'
         "@id": "https://priyankadey.com/blog/vastu-shastra-for-home-and-office-aligning-the-five-elements.php#article",
         "headline": "Vastu Shastra for Home & Office: Aligning the Five Elements",
         "description": "Comprehensive guide to harmonizing residential and commercial spaces using the Pancha Tattva, 16 directional zones, and non-demolition Vastu remedies.",
-        "image": "https://priyankadey.com/assets/vastu1.jpg",
+        "image": "https://priyankadey.com/assets/images/vastu1.jpg",
         "datePublished": "2026-10-27T09:00:00+05:30",
         "dateModified": "2026-11-04T12:00:00+05:30",
         "author": {
@@ -106,7 +106,7 @@ include __DIR__ . '/../header.php';
       
       <!-- Featured Media Header -->
       <div class="article-featured-media">
-        <img src="../assets/vastu1.jpg" alt="Vastu Shastra space energy audit for home and office with Priyanka Dey" width="1200" height="896" loading="eager" decoding="async">
+        <img src="../assets/images/vastu1.jpg" alt="Vastu Shastra space energy audit for home and office with Priyanka Dey" width="1200" height="896" loading="eager" decoding="async">
         <div class="article-caption">
           Vastu Purusha Mandala: The ancient cosmic grid uniting geomagnetic forces, solar radiation, and the five fundamental elements within your architecture.
         </div>
@@ -336,7 +336,7 @@ include __DIR__ . '/../header.php';
         </ul>
 
         <div style="margin:35px 0;">
-          <img src="../assets/vastu.jpg" alt="Vastu Shastra energy grid, directional compass and spatial harmony consultation" width="896" height="1200" style="width:100%;max-height:500px;object-fit:cover;border-radius:6px;border:1px solid rgba(200,166,107,0.25);box-shadow:0 12px 30px rgba(0,0,0,0.4);" loading="lazy">
+          <img src="../assets/images/vastu.jpg" alt="Vastu Shastra energy grid, directional compass and spatial harmony consultation" width="896" height="1200" style="width:100%;max-height:500px;object-fit:cover;border-radius:6px;border:1px solid rgba(200,166,107,0.25);box-shadow:0 12px 30px rgba(0,0,0,0.4);" loading="lazy">
           <p style="font-size:13px;color:rgba(255,255,255,0.65);margin-top:8px;text-align:center;">
             Directional compass orientation and 16-zone energy mapping deployed during on-site and remote architectural Vastu audits.
           </p>
@@ -396,7 +396,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Author Bio Card -->
       <div class="author-bio-card">
-        <img class="author-bio-img" src="../assets/priyanka-dey.jpg" alt="Priyanka Dey Vedic Astrologer and Vastu Shastra Consultant in Siliguri" width="90" height="90" loading="lazy">
+        <img class="author-bio-img" src="../assets/images/priyanka-dey.jpg" alt="Priyanka Dey Vedic Astrologer and Vastu Shastra Consultant in Siliguri" width="90" height="90" loading="lazy">
         <div class="author-bio-content">
           <div class="author-bio-name">Priyanka Dey</div>
           <div class="author-bio-role">Vedic Astrologer &bull; Vastu Shastra Expert &bull; Tarot Counselor</div>

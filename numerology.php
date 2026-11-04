@@ -3,7 +3,7 @@ $pageTitle = "Vedic &amp; Pythagorean Numerology Consultation in Siliguri | Priy
 $pageDescription = "Discover your Mulank (Root Number), Bhagyank (Life Path), Name Vibrations, and personal year cycles with Priyanka Dey in Siliguri and online.";
 $pageKeywords = "Numerology Siliguri, Vedic numerology consultant, name correction numerology, Mulank Bhagyank calculation, Lo-Shu grid Siliguri, Priyanka Dey numerologist";
 $canonicalUrl = "https://priyankadey.com/numerology.php";
-$ogImage = "https://priyankadey.com/assets/numerology1.jpg";
+$ogImage = "https://priyankadey.com/assets/images/numerology1.jpg";
 $activeNav = "numerology";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -218,7 +218,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/numerology.jpg"
+          <img class="portrait" src="assets/images/numerology.jpg"
             alt="Vedic and Pythagorean numerology life path calculation with Priyanka Dey in Siliguri" width="514"
             height="688" loading="lazy" decoding="async">
         </div>
@@ -324,7 +324,7 @@ include __DIR__ . '/header.php';
     <section class="section" id="matrix">
       <div class="container split">
         <div>
-          <img class="portrait" src="assets/numerology1.jpg"
+          <img class="portrait" src="assets/images/numerology1.jpg"
             alt="Vedic numerology calculations and sacred planetary number grid" width="1200" height="896"
             loading="lazy" decoding="async">
         </div>

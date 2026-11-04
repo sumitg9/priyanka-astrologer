@@ -3,7 +3,7 @@ $pageTitle = "Career Astrology &amp; Business Guidance in Siliguri | Priyanka De
 $pageDescription = "Gain clarity on vocational paths, promotions, business launches, and Dasha timing with Priyanka Dey in Siliguri and online. 10th house &amp; D10 Dashamsha analysis.";
 $pageKeywords = "Career astrology Siliguri, business astrology consultant, job change timing, Dashamsha D10 analysis, promotion astrology Siliguri, Priyanka Dey career";
 $canonicalUrl = "https://priyankadey.com/career-guidance.php";
-$ogImage = "https://priyankadey.com/assets/numbers.jpg";
+$ogImage = "https://priyankadey.com/assets/images/numbers.jpg";
 $activeNav = "career-guidance";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -219,7 +219,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/numbers.jpg"
+          <img class="portrait" src="assets/images/numbers.jpg"
             alt="Career and business astrology consultation with Priyanka Dey in Siliguri" width="514" height="688"
             loading="lazy" decoding="async">
         </div>
@@ -329,7 +329,7 @@ include __DIR__ . '/header.php';
     <section class="section" id="timing">
       <div class="container split">
         <div>
-          <img class="portrait" src="assets/horoscope1.jpg"
+          <img class="portrait" src="assets/images/horoscope1.jpg"
             alt="Vedic planetary transit chart for career timing and business expansion" width="1200" height="896"
             loading="lazy" decoding="async">
         </div>

@@ -33,7 +33,7 @@ include __DIR__ . '/header.php';
           </ul>
 
           <div style="margin-top:28px">
-            <img src="assets/astrology-zodiac-wheel.svg" alt="Astrology & Sacred Consultation Wheel" style="border:1px solid #c8a66b66;box-shadow:0 12px 30px rgba(0,0,0,0.1);max-height:220px;width:100%;object-fit:cover;border-radius:4px">
+            <img src="assets/images/astrology-zodiac-wheel.svg" alt="Astrology & Sacred Consultation Wheel" style="border:1px solid #c8a66b66;box-shadow:0 12px 30px rgba(0,0,0,0.1);max-height:220px;width:100%;object-fit:cover;border-radius:4px">
             <p style="font-size:11px;color:var(--muted);margin-top:8px;text-align:center">✦ Ancient Vedic wisdom thoughtfully adapted for modern life</p>
           </div>
         </div>
@@ -112,28 +112,28 @@ include __DIR__ . '/header.php';
         <p class="eyebrow">Consultation Areas</p>
         <div class="cards" style="margin-top:25px">
           <article class="card">
-            <img src="assets/kundali-chart.svg" alt="Kundali Analysis" style="height:140px;object-fit:cover">
+            <img src="assets/images/kundali-chart.svg" alt="Kundali Analysis" style="height:140px;object-fit:cover">
             <div class="card-body" style="padding:16px">
               <span class="card-number">Birth Chart</span>
               <h3 style="font-size:20px;margin:6px 0">Kundali</h3>
             </div>
           </article>
           <article class="card">
-            <img src="assets/vastu-mandala.svg" alt="Vastu Shastra" style="height:140px;object-fit:cover">
+            <img src="assets/images/vastu-mandala.svg" alt="Vastu Shastra" style="height:140px;object-fit:cover">
             <div class="card-body" style="padding:16px">
               <span class="card-number">Spatial Harmony</span>
               <h3 style="font-size:20px;margin:6px 0">Vastu</h3>
             </div>
           </article>
           <article class="card">
-            <img src="assets/tarot-mystic-card.svg" alt="Tarot Reading" style="height:140px;object-fit:cover">
+            <img src="assets/images/tarot-mystic-card.svg" alt="Tarot Reading" style="height:140px;object-fit:cover">
             <div class="card-body" style="padding:16px">
               <span class="card-number">Intuitive Reflection</span>
               <h3 style="font-size:20px;margin:6px 0">Tarot</h3>
             </div>
           </article>
           <article class="card">
-            <img src="assets/sacred-numerology.svg" alt="Numerology Blueprint" style="height:140px;object-fit:cover">
+            <img src="assets/images/sacred-numerology.svg" alt="Numerology Blueprint" style="height:140px;object-fit:cover">
             <div class="card-body" style="padding:16px">
               <span class="card-number">Numeric Resonance</span>
               <h3 style="font-size:20px;margin:6px 0">Numerology</h3>

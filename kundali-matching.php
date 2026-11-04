@@ -3,7 +3,7 @@ $pageTitle = "Kundali Matching &amp; Ashtakoot Guna Milan in Siliguri | Priyanka
 $pageDescription = "Authentic Vedic Kundali Matching and Ashtakoot Guna Milan for prospective brides and grooms by Priyanka Dey in Siliguri and online. Nadi, Bhakoot, Manglik analysis.";
 $pageKeywords = "Kundali Matching Siliguri, Horoscope matching marriage, Ashtakoot Guna Milan, Manglik Dosha cancellation, Nadi Dosha remedies, Priyanka Dey matching";
 $canonicalUrl = "https://priyankadey.com/kundali-matching.php";
-$ogImage = "https://priyankadey.com/assets/kundali-horoscope.jpg";
+$ogImage = "https://priyankadey.com/assets/images/kundali-horoscope.jpg";
 $activeNav = "kundali-matching";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -218,7 +218,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/kundali-horoscope.jpg"
+          <img class="portrait" src="assets/images/kundali-horoscope.jpg"
             alt="Vedic Kundali Matching and Ashtakoot Guna Milan consultation in Siliguri" width="896" height="1200"
             loading="lazy" decoding="async">
         </div>
@@ -332,7 +332,7 @@ include __DIR__ . '/header.php';
     <section class="section" id="ashtakoot-table">
       <div class="container split">
         <div>
-          <img class="portrait" src="assets/vedic-kundali.jpg"
+          <img class="portrait" src="assets/images/vedic-kundali.jpg"
             alt="Vedic Ashtakoot Guna Milan birth chart matching diagram" width="1200" height="896" loading="lazy"
             decoding="async">
         </div>

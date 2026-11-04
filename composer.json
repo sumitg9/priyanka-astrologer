@@ -1,0 +1,9 @@
+{
+  "name": "priyankadey/astrology-website",
+  "description": "Priyanka Dey - Vedic Astrologer & Spiritual Consultant Website",
+  "type": "project",
+  "require": {
+    "php": ">=8.1"
+  }
+}
+

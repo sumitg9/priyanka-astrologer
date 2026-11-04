@@ -3,7 +3,7 @@ $pageTitle = "Horoscope &amp; Zodiac Sign Analysis in Siliguri | Priyanka Dey";
 $pageDescription = "Explore the 12 Vedic Rashis and Zodiac signs, planetary transits (Gochara), and personalized horoscope consultations with Priyanka Dey in Siliguri and online.";
 $pageKeywords = "Horoscope Siliguri, Zodiac sign reading, Vedic Rashi analysis, planetary transits, Gochara predictions, Priyanka Dey horoscope";
 $canonicalUrl = "https://priyankadey.com/horoscope.php";
-$ogImage = "https://priyankadey.com/assets/horoscope1.jpg";
+$ogImage = "https://priyankadey.com/assets/images/horoscope1.jpg";
 $activeNav = "horoscope";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -212,7 +212,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/horoscope.jpg"
+          <img class="portrait" src="assets/images/horoscope.jpg"
             alt="Vedic horoscope and zodiac sign astrological wheel consultation in Siliguri" width="896" height="1200"
             loading="lazy" decoding="async">
         </div>
@@ -940,7 +940,7 @@ include __DIR__ . '/header.php';
     <section class="section soft" id="transits">
       <div class="container split">
         <div>
-          <img class="portrait" src="assets/horoscope1.jpg"
+          <img class="portrait" src="assets/images/horoscope1.jpg"
             alt="Planetary transits Gochara wheel showing Saturn and Jupiter cycles" width="1200" height="896"
             loading="lazy" decoding="async">
         </div>

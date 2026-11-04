@@ -3,7 +3,7 @@ $pageTitle = "Tarot Reading Essentials: Preparing for an Intuitive Session | Pri
 $pageDescription = "A practical, grounded guide to preparing for an intuitive Tarot reading with Priyanka Dey. Learn how 78-card archetypes, spreads, and open-ended questions reveal clarity.";
 $pageKeywords = "Tarot reading essentials, preparing for tarot session, Tarot card reading Siliguri, Major Arcana Minor Arcana, how to ask tarot questions, intuitive tarot reading, Priyanka Dey Tarot";
 $canonicalUrl = "https://priyankadey.com/blog/tarot-reading-essentials-preparing-for-an-intuitive-session.php";
-$ogImage = "https://priyankadey.com/assets/tarot.png";
+$ogImage = "https://priyankadey.com/assets/images/tarot.png";
 $activeNav = "article";
 $basePath = '../';
 $isArticle = true;
@@ -17,7 +17,7 @@ $extraHead = <<<'EXTRAHEAD'
         "@id": "https://priyankadey.com/blog/tarot-reading-essentials-preparing-for-an-intuitive-session.php#article",
         "headline": "Tarot Reading Essentials: Preparing for an Intuitive Session",
         "description": "Comprehensive guide to preparing for an intuitive Tarot reading, exploring the 78-card archetypal structure, effective question framing, and classic spreads.",
-        "image": "https://priyankadey.com/assets/tarot.png",
+        "image": "https://priyankadey.com/assets/images/tarot.png",
         "datePublished": "2026-10-30T09:00:00+05:30",
         "dateModified": "2026-11-04T13:00:00+05:30",
         "author": {
@@ -109,7 +109,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Featured Media Header -->
       <div class="article-featured-media">
-        <img src="../assets/tarot.png" alt="Tarot cards spread and intuitive reading consultation with Priyanka Dey"
+        <img src="../assets/images/tarot.png" alt="Tarot cards spread and intuitive reading consultation with Priyanka Dey"
           width="1536" height="1024" loading="eager" decoding="async">
         <div class="article-caption">
           The 78 Archetypal Mirrors: Each card in the Tarot deck reflects psychological states, subconscious impulses,
@@ -242,7 +242,7 @@ include __DIR__ . '/../header.php';
         </div>
 
         <div style="margin:35px 0;">
-          <img src="../assets/tarrot.jpg" alt="Vedic intuitive tarot spread and card reading session with Priyanka Dey"
+          <img src="../assets/images/tarrot.jpg" alt="Vedic intuitive tarot spread and card reading session with Priyanka Dey"
             width="514" height="688"
             style="display:block;max-width:380px;height:auto;margin:0 auto;width:100%;border-radius:6px;border:1px solid rgba(200,166,107,0.25);box-shadow:0 12px 30px rgba(0,0,0,0.4);"
             loading="lazy">
@@ -377,7 +377,7 @@ include __DIR__ . '/../header.php';
 
       <!-- Author Bio Card -->
       <div class="author-bio-card">
-        <img class="author-bio-img" src="../assets/priyanka-dey.jpg"
+        <img class="author-bio-img" src="../assets/images/priyanka-dey.jpg"
           alt="Priyanka Dey Tarot Reader, Vedic Astrologer and Vastu Consultant in Siliguri" width="90" height="90"
           loading="lazy">
         <div class="author-bio-content">
