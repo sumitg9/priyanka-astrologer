@@ -105,7 +105,7 @@ $base = isset($basePath) ? $basePath : '';
       not a substitute for qualified medical, psychological, legal, or financial counsel.<br><br>
       <div class="footer-bottom-row">
         <div class="footer-copyright">&copy; <span data-year></span> Priyanka Dey. All rights reserved.</div>
-        <div class="developer-credit"><a href="https://wa.me/919832017554" target="_blank" rel="noopener noreferrer" aria-label="Contact website developer Sumit Ghosh on WhatsApp">Website develop and maintain by <span class="dev-name">Sumit Ghosh</span></a></div>
+        <div class="developer-credit"><a href="https://wa.me/919832017554" target="_blank" rel="noopener noreferrer" aria-label="Contact website developer Sumit Ghosh on WhatsApp">Website developed and maintain by <span class="dev-name">Sumit Ghosh</span></a></div>
       </div>
     </div>
   </footer>
