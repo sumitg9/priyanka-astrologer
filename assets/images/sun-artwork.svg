@@ -1,57 +1,121 @@
-<svg class="sun-artwork-vector" viewBox="0 0 100 100" width="100%" height="100%" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" class="lotus-artwork-vector" viewBox="0 0 100 100" width="100%" height="100%" aria-hidden="true">
   <defs>
-    <linearGradient id="sunGradCore" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffb834"/>
-      <stop offset="100%" stop-color="#f5931e"/>
+    <!-- Sacred Pink & White Lotus Gradients -->
+    <linearGradient id="lotusGradCrown" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#ffe6f2"/>
+      <stop offset="65%" stop-color="#ff66aa"/>
+      <stop offset="100%" stop-color="#c2185b"/>
     </linearGradient>
-    <linearGradient id="sunGradWaves" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffa827"/>
-      <stop offset="100%" stop-color="#f38b16"/>
+
+    <linearGradient id="lotusGradInner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#ffb3d9"/>
+      <stop offset="75%" stop-color="#e91e63"/>
+      <stop offset="100%" stop-color="#ad1457"/>
     </linearGradient>
+
+    <linearGradient id="lotusGradMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff0f5"/>
+      <stop offset="35%" stop-color="#ff80bf"/>
+      <stop offset="80%" stop-color="#c2185b"/>
+      <stop offset="100%" stop-color="#880e4f"/>
+    </linearGradient>
+
+    <linearGradient id="lotusGradOuter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe6f2"/>
+      <stop offset="45%" stop-color="#ff4d94"/>
+      <stop offset="85%" stop-color="#ad1457"/>
+      <stop offset="100%" stop-color="#6a0036"/>
+    </linearGradient>
+
+    <linearGradient id="lotusGradBase" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#880e4f"/>
+      <stop offset="25%" stop-color="#d81b60"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#d81b60"/>
+      <stop offset="100%" stop-color="#880e4f"/>
+    </linearGradient>
+
+    <radialGradient id="lotusAuraGlow" cx="50%" cy="56%" r="48%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#ff80bf" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#e91e63" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ad1457" stop-opacity="0"/>
+    </radialGradient>
+
     <style>
-      .sun-waves-group {
-        transform-origin: 50px 50px;
-        animation: sunWavesRotate 14s linear infinite;
-        will-change: transform;
+      .lotus-flower-group {
+        transform-origin: 50px 75px;
+        animation: lotusGentleBreath 4s ease-in-out infinite alternate;
       }
-      .sun-wave-ray {
-        transform-origin: 50px 50px;
-        animation: sunWaveUndulate 2.8s ease-in-out infinite alternate;
+      .lotus-aura-glow {
+        transform-origin: 50px 54px;
+        animation: lotusAuraPulse 3s ease-in-out infinite alternate;
       }
-      .sun-wave-ray:nth-child(even) { animation-delay: -1.4s; }
-      .sun-wave-ray:nth-child(3n) { animation-delay: -0.9s; }
-      .sun-center-disc {
-        transform-origin: 50px 50px;
-        animation: sunCoreBreath 3.6s ease-in-out infinite alternate;
-      }
-      @keyframes sunWavesRotate {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      @keyframes sunWaveUndulate {
-        0% { transform: scale(1) rotate(0deg); }
-        50% { transform: scale(1.045) rotate(1.2deg); }
-        100% { transform: scale(0.985) rotate(-1.2deg); }
-      }
-      @keyframes sunCoreBreath {
+      @keyframes lotusGentleBreath {
         0% { transform: scale(0.985); }
-        100% { transform: scale(1.015); }
+        100% { transform: scale(1.025); }
+      }
+      @keyframes lotusAuraPulse {
+        0% { opacity: 0.65; transform: scale(0.95); }
+        100% { opacity: 1; transform: scale(1.05); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .lotus-flower-group, .lotus-aura-glow {
+          animation: none;
+        }
       }
     </style>
   </defs>
 
-  <!-- Sun Waves Group: Moving on their own -->
-  <g class="sun-waves-group" fill="url(#sunGradWaves)">
-    <path class="sun-wave-ray ray-0" d="M 44.44,20.01 C 46.08,12.71 54.41,4.21 65.14,3.40 C 66.95,11.02 61.52,17.48 56.08,20.11 A 30.5 30.5 0 0 0 44.44,20.01 Z"/>
-    <path class="sun-wave-ray ray-1" d="M 67.28,24.86 C 73.60,20.86 85.49,20.74 93.66,27.75 C 89.54,34.42 81.14,35.15 75.43,33.17 A 30.5 30.5 0 0 0 67.28,24.86 Z"/>
-    <path class="sun-wave-ray ray-2" d="M 79.99,44.44 C 87.29,46.08 95.79,54.41 96.60,65.14 C 88.98,66.95 82.52,61.52 79.89,56.08 A 30.5 30.5 0 0 0 79.99,44.44 Z"/>
-    <path class="sun-wave-ray ray-3" d="M 75.14,67.28 C 79.14,73.60 79.26,85.49 72.25,93.66 C 65.58,89.54 64.85,81.14 66.83,75.43 A 30.5 30.5 0 0 0 75.14,67.28 Z"/>
-    <path class="sun-wave-ray ray-4" d="M 55.56,79.99 C 53.92,87.29 45.59,95.79 34.86,96.60 C 33.05,88.98 38.48,82.52 43.92,79.89 A 30.5 30.5 0 0 0 55.56,79.99 Z"/>
-    <path class="sun-wave-ray ray-5" d="M 32.72,75.14 C 26.40,79.14 14.51,79.26 6.34,72.25 C 10.46,65.58 18.86,64.85 24.57,66.83 A 30.5 30.5 0 0 0 32.72,75.14 Z"/>
-    <path class="sun-wave-ray ray-6" d="M 20.01,55.56 C 12.71,53.92 4.21,45.59 3.40,34.86 C 11.02,33.05 17.48,38.48 20.11,43.92 A 30.5 30.5 0 0 0 20.01,55.56 Z"/>
-    <path class="sun-wave-ray ray-7" d="M 24.86,32.72 C 20.86,26.40 20.74,14.51 27.75,6.34 C 34.42,10.46 35.15,18.86 33.17,24.57 A 30.5 30.5 0 0 0 24.86,32.72 Z"/>
-  </g>
+  <g class="lotus-flower-group">
+    <!-- Radiant Spiritual Halo / Prana Aura -->
+    <circle cx="50" cy="54" r="32" fill="url(#lotusAuraGlow)" class="lotus-aura-glow"/>
 
-  <!-- Central Sun Disc (separated by clean annular gap) -->
-  <circle cx="50" cy="50" r="26.8" fill="url(#sunGradCore)" class="sun-center-disc"/>
+    <!-- LAYER 1: BASE PEDESTAL & RECLINING CALYX PETALS -->
+    <!-- Far outer reclining petals (base wings) -->
+    <path class="lotus-petal lotus-petal-base-l" fill="url(#lotusGradOuter)" stroke="#ffb6c1" stroke-width="0.5" stroke-opacity="0.5"
+      d="M 50,77 C 36,77 22,74 10,64 C 8,62 10,59 13,59 C 20,59 31,64 42,70 C 45,72 48,74 50,77 Z"/>
+    <path class="lotus-petal lotus-petal-base-r" fill="url(#lotusGradOuter)" stroke="#ffb6c1" stroke-width="0.5" stroke-opacity="0.5"
+      d="M 50,77 C 64,77 78,74 90,64 C 92,62 90,59 87,59 C 80,59 69,64 58,70 C 55,72 52,74 50,77 Z"/>
+
+    <!-- Reclining base leaves (lower lotus pad foundation) -->
+    <path class="lotus-petal lotus-base-pad" fill="url(#lotusGradBase)" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.7"
+      d="M 28,78 C 34,83 42,85.5 50,85.5 C 58,85.5 66,83 72,78 C 66,81 58,82.5 50,82.5 C 42,82.5 34,81 28,78 Z"/>
+
+    <!-- LAYER 2: WIDE BLOOMING PETALS (OUTER LAYER) -->
+    <!-- Outer Left Blooming Petal -->
+    <path class="lotus-petal lotus-petal-out-l" fill="url(#lotusGradOuter)" stroke="#ffcce6" stroke-width="0.6" stroke-opacity="0.6"
+      d="M 50,76 C 42,71 28,62 17,50 C 13,45 13,41 17,40 C 21,39 28,45 36,54 C 42,61 47,69 50,76 Z"/>
+    <!-- Outer Right Blooming Petal -->
+    <path class="lotus-petal lotus-petal-out-r" fill="url(#lotusGradOuter)" stroke="#ffcce6" stroke-width="0.6" stroke-opacity="0.6"
+      d="M 50,76 C 58,71 72,62 83,50 C 87,45 87,41 83,40 C 79,39 72,45 64,54 C 58,61 53,69 50,76 Z"/>
+
+    <!-- LAYER 3: MID-ASCENDING PETALS -->
+    <!-- Mid-Left Petal -->
+    <path class="lotus-petal lotus-petal-mid-l" fill="url(#lotusGradMid)" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.7"
+      d="M 50,75 C 43,67 31,52 27,36 C 25,30 29,28 33,29 C 38,32 45,43 48,56 C 49,61 50,68 50,75 Z"/>
+    <!-- Mid-Right Petal -->
+    <path class="lotus-petal lotus-petal-mid-r" fill="url(#lotusGradMid)" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.7"
+      d="M 50,75 C 57,67 69,52 73,36 C 75,30 71,28 67,29 C 62,32 55,43 52,56 C 51,61 50,68 50,75 Z"/>
+
+    <!-- LAYER 4: INNER UPRIGHT PETALS (HUGGING CROWN) -->
+    <!-- Inner-Left Petal -->
+    <path class="lotus-petal lotus-petal-inn-l" fill="url(#lotusGradInner)" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.8"
+      d="M 50,74 C 45,63 36,47 36,31 C 36,22 41,20 44,21 C 48,25 50,38 50,51 C 50,59 50,67 50,74 Z"/>
+    <!-- Inner-Right Petal -->
+    <path class="lotus-petal lotus-petal-inn-r" fill="url(#lotusGradInner)" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.8"
+      d="M 50,74 C 55,63 64,47 64,31 C 64,22 59,20 56,21 C 52,25 50,38 50,51 C 50,59 50,67 50,74 Z"/>
+
+    <!-- LAYER 5: CENTRAL CROWN PETAL (THE SACRED APEX / BRAHMARANDHRA) -->
+    <path class="lotus-petal lotus-petal-crown" fill="url(#lotusGradCrown)" stroke="#ffffff" stroke-width="0.75" stroke-opacity="0.9"
+      d="M 50,13 C 47,23 41,39 41,53 C 41,65 46,72 50,74 C 54,72 59,65 59,53 C 59,39 53,23 50,13 Z"/>
+    <!-- Subtle central spine / vein of light on crown petal -->
+    <path d="M 50,16 L 50,56" stroke="#ffffff" stroke-width="0.75" stroke-linecap="round" stroke-opacity="0.85" class="lotus-crown-spine"/>
+
+    <!-- LAYER 6: AUSPICIOUS CENTRAL SEED CORE / BINDU (WHITE-ROSE PEARL) -->
+    <ellipse cx="50" cy="57" rx="3.4" ry="4" fill="#ffffff" class="lotus-bindu-pearl"/>
+    <circle cx="50" cy="56" r="1.8" fill="#ffb6c1" class="lotus-bindu-spark"/>
+  </g>
 </svg>

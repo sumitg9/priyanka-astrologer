@@ -11,12 +11,17 @@
   --light-golden: #d5b179;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -24,6 +29,12 @@ body {
   background: #010101;
   color: #e2d7c5;
   font-family: "DM Sans", Arial, sans-serif;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -31,9 +42,28 @@ a {
   text-decoration: none;
 }
 
-img {
+img,
+picture,
+video,
+canvas,
+svg {
   max-width: 100%;
+  height: auto;
   display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+button,
+li {
+  overflow-wrap: break-word;
 }
 
 .serif {
@@ -83,11 +113,12 @@ img {
 }
 
 /* ==========================================================================
-   ROTATING SUN ARTWORK & MOVING SUN WAVES (HEADER & FOOTER)
+   SACRED LOTUS BRAND LOGO (HEADER & FOOTER)
    ========================================================================== */
 .brandmark {
-  width: 44px;
   height: 44px;
+  width: auto;
+  min-width: 44px;
   border: none;
   background: transparent;
   display: flex;
@@ -98,8 +129,50 @@ img {
 }
 
 .footer-brandmark {
-  width: 40px;
   height: 40px;
+  width: auto;
+  min-width: 40px;
+}
+
+.brand-logo-img {
+  height: 38px;
+  width: auto;
+  max-width: 65px;
+  display: block;
+  object-fit: contain;
+  /* filter: drop-shadow(0 0 6px rgba(255, 105, 180, 0.55)) drop-shadow(0 0 2px rgba(255, 255, 255, 0.65)); */
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), filter 0.3s ease;
+  will-change: transform;
+  animation: lotusLogoFloat 4.6s ease-in-out infinite alternate;
+}
+
+.footer-logo-img {
+  height: 34px;
+}
+
+.brand:hover .brand-logo-img {
+  transform: scale(1.08) translateY(-1px);
+  filter: drop-shadow(0 0 12px rgba(255, 105, 180, 0.95)) drop-shadow(0 0 4px rgba(255, 255, 255, 0.95));
+}
+
+@keyframes lotusLogoFloat {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-1.5px) scale(1.02);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-logo-img {
+    animation: none !important;
+  }
 }
 
 .brandname {
@@ -157,21 +230,128 @@ img {
   color: #fff4d4;
 }
 
+/* ==========================================================================
+   SACRED LOTUS ARTWORK & BREATHING BLOOM ANIMATIONS (HEADER & FOOTER)
+   ========================================================================== */
+.lotus-artwork-vector,
 .sun-artwork-vector {
   width: 100%;
   height: 100%;
   display: block;
   overflow: visible;
-  filter: drop-shadow(0 0 5px rgba(246, 146, 30, 0.45));
-  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 0 6px rgba(255, 105, 180, 0.55)) drop-shadow(0 0 2px rgba(255, 255, 255, 0.65));
+  transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1), filter 0.35s ease;
 }
 
+.brand:hover .lotus-artwork-vector,
 .brand:hover .sun-artwork-vector {
-  transform: scale(1.08);
-  filter: drop-shadow(0 0 10px rgba(255, 184, 52, 0.85));
+  transform: scale(1.10) translateY(-1px);
+  filter: drop-shadow(0 0 12px rgba(255, 105, 180, 0.95)) drop-shadow(0 0 4px rgba(255, 255, 255, 0.95));
 }
 
-/* SUN WAVES: MOVE ON THEIR OWN (ORBITAL ROTATION + UNDULATING FLEX) */
+/* Lotus Flower Group: Meditative Gentle Breathing Animation */
+.lotus-flower-group {
+  transform-origin: 50px 75px;
+  animation: lotusGentleBreath 4.2s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+.brand:hover .lotus-flower-group {
+  animation-duration: 2.4s;
+  /* Harmonious bloom acceleration on hover */
+}
+
+/* Prana / Aura Glow behind Lotus */
+.lotus-aura-glow {
+  transform-origin: 50px 54px;
+  animation: lotusAuraPulse 3.4s ease-in-out infinite alternate;
+}
+
+/* Center Crown Petal & Bindu Pearl subtle radiance */
+.lotus-petal-crown {
+  transform-origin: 50px 74px;
+  animation: lotusCrownPulse 3.8s ease-in-out infinite alternate;
+}
+
+.lotus-bindu-spark {
+  animation: lotusSparkGlint 2.8s ease-in-out infinite alternate;
+}
+
+/* Outer Petal Subtle Blooming Sway */
+.lotus-petal-out-l {
+  transform-origin: 50px 76px;
+  animation: lotusPetalBloomL 4.2s ease-in-out infinite alternate;
+}
+
+.lotus-petal-out-r {
+  transform-origin: 50px 76px;
+  animation: lotusPetalBloomR 4.2s ease-in-out infinite alternate;
+}
+
+@keyframes lotusGentleBreath {
+  0% {
+    transform: scale(0.985);
+  }
+
+  100% {
+    transform: scale(1.025);
+  }
+}
+
+@keyframes lotusAuraPulse {
+  0% {
+    opacity: 0.55;
+    transform: scale(0.94);
+  }
+
+  100% {
+    opacity: 0.95;
+    transform: scale(1.06);
+  }
+}
+
+@keyframes lotusCrownPulse {
+  0% {
+    transform: scaleY(0.985);
+  }
+
+  100% {
+    transform: scaleY(1.02);
+  }
+}
+
+@keyframes lotusPetalBloomL {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-1.5deg);
+  }
+}
+
+@keyframes lotusPetalBloomR {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1.5deg);
+  }
+}
+
+@keyframes lotusSparkGlint {
+  0% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 2px #ffffff);
+  }
+}
+
+/* Legacy Sun Waves & Rays */
 .sun-waves-group {
   transform-origin: 50px 50px;
   animation: sunWavesRotate 14s linear infinite;
@@ -180,10 +360,8 @@ img {
 
 .brand:hover .sun-waves-group {
   animation-duration: 8s;
-  /* Subtle acceleration on brand hover */
 }
 
-/* Individual undulating wave motion for each solar tongue */
 .sun-wave-ray {
   transform-origin: 50px 50px;
   animation: sunWaveUndulate 2.8s ease-in-out infinite alternate;
@@ -221,7 +399,6 @@ img {
   }
 }
 
-/* Central Solar Disc */
 .sun-center-disc {
   transform-origin: 50px 50px;
   animation: sunCoreBreath 3.6s ease-in-out infinite alternate;
@@ -239,10 +416,16 @@ img {
 
 @media (prefers-reduced-motion: reduce) {
 
+  .lotus-flower-group,
+  .lotus-aura-glow,
+  .lotus-petal-crown,
+  .lotus-petal-out-l,
+  .lotus-petal-out-r,
+  .lotus-bindu-spark,
   .sun-waves-group,
   .sun-wave-ray,
   .sun-center-disc {
-    animation: none;
+    animation: none !important;
   }
 }
 
@@ -806,16 +989,25 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .hero-text-slides {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   grid-template-rows: 1fr;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .hero-slide-text {
   grid-area: 1 / 1;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
   opacity: 0;
   visibility: hidden;
   transform: translateY(22px);
@@ -823,6 +1015,8 @@ p {
     transform 0.75s cubic-bezier(0.16, 1, 0.3, 1),
     visibility 0.75s;
   pointer-events: none;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .hero-slide-text.is-active {
@@ -993,21 +1187,28 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 40px 24px 22px;
-  background: linear-gradient(to top, rgba(21, 25, 37, 0.95) 0%, rgba(21, 25, 37, 0.7) 60%, transparent 100%);
+  padding: 36px 20px 20px;
+  background: linear-gradient(to top, rgba(21, 25, 37, 0.96) 0%, rgba(21, 25, 37, 0.75) 60%, transparent 100%);
   color: white;
   transform: translateY(0);
+  box-sizing: border-box;
 }
 
 .photo-caption h2 {
-  font: 42px "Cormorant Garamond", Georgia, serif;
-  margin: 8px 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(22px, 3.4vw, 40px);
+  font-weight: 500;
+  line-height: 1.18;
+  margin: 6px 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .photo-caption p {
-  font-size: 14px;
+  font-size: 13.5px;
   color: #ffffffc9;
   margin: 0;
+  overflow-wrap: break-word;
 }
 
 /* ==========================================================================
@@ -1016,11 +1217,18 @@ p {
 
 .section {
   padding: 80px 24px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .container {
+  width: 100%;
   max-width: 1160px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .center {
@@ -1028,9 +1236,11 @@ p {
 }
 
 .section-title {
-  font: 500 clamp(38px, 4.5vw, 60px) / 1.05 "Cormorant Garamond", Georgia, serif;
+  font: 500 clamp(28px, 4.2vw, 54px) / 1.1 "Cormorant Garamond", Georgia, serif;
   color: var(--champagne);
   margin: 15px 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .section-copy {
@@ -1405,6 +1615,7 @@ textarea:focus {
     align-items: flex-start;
     gap: 6px;
   }
+
   .developer-credit {
     text-align: left;
   }
@@ -1728,81 +1939,444 @@ textarea:focus {
   }
 }
 
-@media (max-width: 700px) {
+/* ==========================================================================
+   MOBILE BREAKPOINTS (<= 768px TABLETS & SMARTPHONES)
+   ========================================================================== */
+@media (max-width: 768px) {
+
+  .topbar {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    padding: 7px 12px;
+  }
 
   .navwrap {
-    padding: 12px 18px;
+    padding: 12px 16px;
     gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .brand {
+    gap: 10px;
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  .brandmark {
+    min-width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+  }
+
+  .brand-logo-img {
+    height: 32px;
+    max-width: 48px;
+  }
+
+  .brandtext {
+    min-width: 0;
   }
 
   .brandname {
-    font-size: 24px;
+    font-size: clamp(19px, 5vw, 24px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .brandsub {
+    font-size: clamp(8px, 2.2vw, 10px);
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .nav-actions {
+    gap: 8px;
+    flex-shrink: 0;
   }
 
   .nav-cta-btn {
     padding: 7px 11px;
     font-size: 10.5px;
+    letter-spacing: 0.02em;
   }
 
-  .hero-inner,
-  .two-col,
-  .split {
-    grid-template-columns: 1fr;
+  .hero {
+    min-height: auto;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0;
   }
 
   .hero-inner {
-    padding: 48px 20px;
-    gap: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding: 32px 16px 40px;
+    gap: 28px;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .hero-text-slider {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .hero-text-slides {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 1fr;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .hero-slide-text {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .hero-slide-text .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    display: block;
   }
 
   .hero h1 {
-    font-size: clamp(26px, 6.8vw, 36px);
-    line-height: 1.18;
-    margin: 16px 0;
+    font-size: clamp(23px, 6.4vw, 34px) !important;
+    line-height: 1.2 !important;
+    margin: 12px 0 14px !important;
+    letter-spacing: -0.01em;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .hero h1 em {
-    font-size: 0.9em;
+    display: block;
+    font-size: 0.85em;
+    line-height: 1.25;
+    margin-top: 6px;
+    color: var(--champagne);
+    font-style: italic;
   }
 
   .hero-copy {
-    font-size: 16px;
+    font-size: 14.5px;
+    line-height: 1.75;
+    margin: 0 0 18px;
+    max-width: 100%;
+    color: rgba(255, 255, 255, 0.82);
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 18px;
+    box-sizing: border-box;
+  }
+
+  .hero-actions .btn {
+    flex: 1 1 calc(50% - 6px);
+    min-width: 130px;
+    justify-content: center;
+    padding: 12px 14px;
+    font-size: 11.5px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .hero-badge-meta {
+    font-size: 12px;
+    margin-top: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+  }
+
+  .hero-slider-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    gap: 8px;
+    margin-top: 20px;
+    padding-top: 14px;
+    box-sizing: border-box;
+  }
+
+  .slider-arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  .hero-slider-dots {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 1;
+    overflow: hidden;
+  }
+
+  .slider-dot {
+    width: 16px;
+    height: 5px;
+    flex-shrink: 0;
+  }
+
+  .slider-dot.is-active {
+    width: 28px;
+  }
+
+  .hero-slide-counter {
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    flex-shrink: 0;
+    margin-left: 2px;
+  }
+
+  .hero-photo-wrapper {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
   }
 
   .hero-photo {
-    height: 440px;
-    max-width: 440px;
     width: 100%;
-    margin: auto;
+    max-width: 380px;
+    height: auto;
+    aspect-ratio: 4 / 4.6;
+    max-height: 420px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .hero-slider-images {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-slide-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .photo-caption {
+    padding: 20px 14px 12px;
+    box-sizing: border-box;
+  }
+
+  .photo-caption .eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.16em;
+  }
+
+  .photo-caption h2 {
+    font-size: clamp(19px, 5.5vw, 26px);
+    line-height: 1.2;
+    margin: 4px 0 6px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .photo-caption p {
+    font-size: 12px;
+    line-height: 1.4;
+    overflow-wrap: break-word;
   }
 
   .section {
-    padding: 60px 20px;
+    padding: 48px 16px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
   }
 
   .page-hero {
-    padding: 55px 20px;
+    padding: 48px 16px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+
+  .section-title {
+    font-size: clamp(24px, 6.4vw, 34px) !important;
+    line-height: 1.15;
+    margin: 10px 0 14px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .section-copy {
+    font-size: 14.5px;
+    line-height: 1.75;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .two-col,
+  .split {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .portrait {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    aspect-ratio: 4 / 4.5;
+    max-height: 380px;
+    margin: 0 auto;
+    object-fit: cover;
+    box-sizing: border-box;
   }
 
   .cards,
   .cards.cards-3col,
   .cards-3col,
+  .cards-4col,
   .steps,
   .blog-list {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 28px;
+    box-sizing: border-box;
   }
 
-  .card img {
-    height: 220px;
+  .card,
+  .blog-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
-  .portrait {
-    height: 380px;
+  .card img,
+  .blog-card img {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+
+  .card-body {
+    padding: 20px 16px;
+    box-sizing: border-box;
+  }
+
+  .card-body h3,
+  .card h3,
+  .blog-card h3 {
+    font-size: clamp(20px, 5.5vw, 25px);
+    line-height: 1.25;
+    margin: 8px 0 10px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .card-body p {
+    font-size: 13.5px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+    overflow-wrap: break-word;
+  }
+
+  .footer {
+    padding: 40px 16px 24px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
   }
 
   .footer-grid {
-    grid-template-columns: 1fr;
-    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer-brand {
+    gap: 10px;
+  }
+
+  .footer-brandname {
+    font-size: 26px !important;
+  }
+
+  .footer p {
+    max-width: 100% !important;
+  }
+
+  .footer-legal-links {
+    gap: 8px 12px;
+    font-size: 12px;
+  }
+
+  .footer-bottom {
+    font-size: 11.5px;
+    line-height: 1.7;
+    padding-top: 16px;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer-bottom-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 14px;
+    width: 100%;
+  }
+
+  .developer-credit {
+    text-align: left;
+    font-size: 11.5px;
+    word-break: break-word;
   }
 
   .form-grid {
@@ -1812,21 +2386,73 @@ textarea:focus {
   .full {
     grid-column: auto;
   }
+}
+
+/* ==========================================================================
+   SMARTPHONES UNDER 480px (PREVENT ANY OVERFLOW / CRAMMING)
+   ========================================================================== */
+@media (max-width: 480px) {
+
+  .navwrap {
+    padding: 10px 14px;
+    gap: 8px;
+  }
+
+  .nav-cta-btn {
+    display: none;
+    /* Keep header spacious on phones: Lotus logo + Brand name + Hamburger */
+  }
 
   .brandname {
-    font-size: 24px;
+    font-size: 21px;
   }
 
-  .topbar {
-    font-size: 9px;
+  .brandsub {
+    font-size: 8.5px;
   }
 
-  .hero h1 {
-    font-size: 50px;
+  .hero-actions {
+    flex-direction: column;
   }
 
-  .hero-slider-controls {
-    justify-content: flex-start;
+  .hero-actions .btn {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .hero-inner {
+    padding: 26px 14px 34px;
+  }
+
+  .section {
+    padding: 42px 14px;
+  }
+}
+
+/* ==========================================================================
+   TINY PHONES UNDER 360px (ULTRA-NARROW PROTECTION)
+   ========================================================================== */
+@media (max-width: 360px) {
+
+  .navwrap {
+    padding: 8px 10px;
+  }
+
+  .brandname {
+    font-size: 18px;
+  }
+
+  .brandsub {
+    font-size: 8px;
+  }
+
+  .hero-slider-dots {
+    display: none;
+    /* Hide dots on ultra narrow screens, arrows and counter remain */
+  }
+
+  .hero-photo {
+    max-height: 340px;
   }
 }
 
@@ -1836,8 +2462,12 @@ textarea:focus {
 .zodiac-daily-section {
   background: #010101;
   color: #ffffff;
-  padding: 85px 0 50px;
+  padding: 85px 20px 50px;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .zodiac-daily-section .section-title {
@@ -2289,30 +2919,42 @@ body.dialog-open {
 @media (max-width: 580px) {
   .zodiac-daily-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .zodiac-daily-section {
-    padding: 60px 0 70px;
+    padding: 50px 16px 50px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   button.zodiac-daily-card,
   a.zodiac-daily-card {
-    padding: 24px 10px 18px;
+    padding: 18px 8px 14px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .zodiac-daily-card .zodiac-glyph {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
   }
 
   .zodiac-daily-card .zodiac-name {
-    font-size: 14px;
-    margin-top: 12px;
+    font-size: 13px;
+    margin-top: 10px;
   }
 
   .zodiac-daily-card .zodiac-dates {
-    font-size: 10.5px;
+    font-size: 10px;
+    white-space: normal;
+    line-height: 1.3;
   }
 }
 
@@ -2322,8 +2964,12 @@ body.dialog-open {
 .personal-horoscope-cta-section {
   background: #010101;
   color: #ffffff;
-  padding: 0 24px 90px;
+  padding: 0 20px 80px;
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .personal-horoscope-card {
@@ -2415,25 +3061,44 @@ body.dialog-open {
 
 @media (max-width: 768px) {
   .personal-horoscope-cta-section {
-    padding: 0 16px 65px;
+    padding: 0 16px 55px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   .personal-horoscope-card {
-    padding: 36px 20px 32px;
+    padding: 30px 16px 26px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .personal-horoscope-title {
-    font-size: 26px;
+    font-size: clamp(21px, 5.8vw, 28px);
+    line-height: 1.25;
+    margin-bottom: 14px;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .personal-horoscope-copy {
-    font-size: 14.5px;
-    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 22px;
+    max-width: 100%;
+    overflow-wrap: break-word;
   }
 
   .personal-horoscope-btn {
     width: 100%;
+    max-width: 100%;
     justify-content: center;
+    padding: 13px 18px;
+    font-size: 12.5px;
+    text-align: center;
+    box-sizing: border-box;
   }
 }
 

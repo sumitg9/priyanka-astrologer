@@ -20,7 +20,7 @@
     },
     {
       "src": "/favicon\\.ico",
-      "dest": "/assets/images/sun-artwork.svg"
+      "dest": "/assets/images/lotus-logo.png"
     },
     {
       "src": "/(.*)",

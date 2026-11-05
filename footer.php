@@ -11,37 +11,7 @@ $base = isset($basePath) ? $basePath : '';
       <div>
         <a href="<?php echo $base; ?>index.php" class="brand footer-brand" aria-label="Priyanka Dey Home">
           <span class="brandmark footer-brandmark" aria-hidden="true">
-            <svg class="sun-artwork-vector" viewBox="0 0 100 100" width="100%" height="100%" aria-hidden="true">
-              <defs>
-                <linearGradient id="ftrSunGradCore" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#ffb834" />
-                  <stop offset="100%" stop-color="#f5931e" />
-                </linearGradient>
-                <linearGradient id="ftrSunGradWaves" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#ffa827" />
-                  <stop offset="100%" stop-color="#f38b16" />
-                </linearGradient>
-              </defs>
-              <g class="sun-waves-group" fill="url(#ftrSunGradWaves)">
-                <path class="sun-wave-ray ray-0"
-                  d="M 44.44,20.01 C 46.08,12.71 54.41,4.21 65.14,3.40 C 66.95,11.02 61.52,17.48 56.08,20.11 A 30.5 30.5 0 0 0 44.44,20.01 Z" />
-                <path class="sun-wave-ray ray-1"
-                  d="M 67.28,24.86 C 73.60,20.86 85.49,20.74 93.66,27.75 C 89.54,34.42 81.14,35.15 75.43,33.17 A 30.5 30.5 0 0 0 67.28,24.86 Z" />
-                <path class="sun-wave-ray ray-2"
-                  d="M 79.99,44.44 C 87.29,46.08 95.79,54.41 96.60,65.14 C 88.98,66.95 82.52,61.52 79.89,56.08 A 30.5 30.5 0 0 0 79.99,44.44 Z" />
-                <path class="sun-wave-ray ray-3"
-                  d="M 75.14,67.28 C 79.14,73.60 79.26,85.49 72.25,93.66 C 65.58,89.54 64.85,81.14 66.83,75.43 A 30.5 30.5 0 0 0 75.14,67.28 Z" />
-                <path class="sun-wave-ray ray-4"
-                  d="M 55.56,79.99 C 53.92,87.29 45.59,95.79 34.86,96.60 C 33.05,88.98 38.48,82.52 43.92,79.89 A 30.5 30.5 0 0 0 55.56,79.99 Z" />
-                <path class="sun-wave-ray ray-5"
-                  d="M 32.72,75.14 C 26.40,79.14 14.51,79.26 6.34,72.25 C 10.46,65.58 18.86,64.85 24.57,66.83 A 30.5 30.5 0 0 0 32.72,75.14 Z" />
-                <path class="sun-wave-ray ray-6"
-                  d="M 20.01,55.56 C 12.71,53.92 4.21,45.59 3.40,34.86 C 11.02,33.05 17.48,38.48 20.11,43.92 A 30.5 30.5 0 0 0 20.01,55.56 Z" />
-                <path class="sun-wave-ray ray-7"
-                  d="M 24.86,32.72 C 20.86,26.40 20.74,14.51 27.75,6.34 C 34.42,10.46 35.15,18.86 33.17,24.57 A 30.5 30.5 0 0 0 24.86,32.72 Z" />
-              </g>
-              <circle cx="50" cy="50" r="26.8" fill="url(#ftrSunGradCore)" class="sun-center-disc" />
-            </svg>
+            <img src="<?php echo $base; ?>assets/images/lotus-logo.png" alt="Priyanka Dey Logo" class="brand-logo-img footer-logo-img" width="70" height="43">
           </span>
           <span class="serif footer-brandname" style="font-size:32px;color:var(--champagne);line-height:1">Priyanka
             Dey</span>

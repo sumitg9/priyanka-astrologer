@@ -194,14 +194,14 @@
 
     function resizeCanvas() {
       const rect = heroSection.getBoundingClientRect();
-      width = Math.max(rect.width, 320);
-      height = Math.max(rect.height, 400);
+      width = Math.min(rect.width || window.innerWidth, window.innerWidth);
+      height = Math.max(rect.height, 350);
       dpr = Math.min(window.devicePixelRatio || 1, 2);
 
       canvas.width = Math.floor(width * dpr);
       canvas.height = Math.floor(height * dpr);
-      canvas.style.width = width + 'px';
-      canvas.style.height = height + 'px';
+      canvas.style.width = '100%';
+      canvas.style.height = '100%';
 
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     }
