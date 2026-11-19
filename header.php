@@ -73,7 +73,7 @@ $active = isset($activeNav) ? $activeNav : '';
 
         <!-- Services Dropdown ▾ -->
         <div class="nav-dropdown" id="servicesDropdown">
-          <a href="<?php echo $base; ?>services.php" class="nav-item nav-dropdown-trigger<?php echo in_array($active, ['services','astrology','kundali','kundali-matching','tarot','numerology','vastu','career-guidance','marriage-consultation','muhurta']) ? ' is-active' : ''; ?>" id="servicesTrigger" aria-haspopup="true"
+          <a href="<?php echo $base; ?>services.php" class="nav-item nav-dropdown-trigger<?php echo in_array($active, ['services','astrology','kundali','kundali-matching','tarot','numerology','vastu','career-guidance','marriage-consultation','muhurta','akashic-records','akashic-record']) ? ' is-active' : ''; ?>" id="servicesTrigger" aria-haspopup="true"
             aria-expanded="false">
             Services <span class="dropdown-caret" aria-hidden="true">&#9662;</span>
           </a>
@@ -146,6 +146,13 @@ $active = isset($activeNav) ? $activeNav : '';
                   <span class="dropdown-item-desc">Favourable celestial timing for milestones &amp; events</span>
                 </span>
               </a>
+              <a href="<?php echo $base; ?>akashic-records.php" class="dropdown-item<?php echo in_array($active, ['akashic-records', 'akashic-record']) ? ' active' : ''; ?>" role="menuitem">
+                <span class="dropdown-bullet">&#10022;</span>
+                <span class="dropdown-item-content">
+                  <span class="dropdown-item-title">Akashic Record Reading</span>
+                  <span class="dropdown-item-desc">Soul blueprint, past-life karma &amp; divine wisdom</span>
+                </span>
+              </a>
             </div>
           </div>
         </div>
@@ -192,6 +199,7 @@ $active = isset($activeNav) ? $activeNav : '';
             <a href="<?php echo $base; ?>career-guidance.php" class="mobile-sub-link"><span class="mobile-sub-bullet">&#10022;</span> Career &amp; Business Guidance</a>
             <a href="<?php echo $base; ?>marriage-consultation.php" class="mobile-sub-link"><span class="mobile-sub-bullet">&#10022;</span> Love &amp; Marriage Consultation</a>
             <a href="<?php echo $base; ?>muhurta.php" class="mobile-sub-link"><span class="mobile-sub-bullet">&#10022;</span> Muhurta Selection</a>
+            <a href="<?php echo $base; ?>akashic-records.php" class="mobile-sub-link"><span class="mobile-sub-bullet">&#10022;</span> Akashic Record Reading</a>
           </div>
         </div>
 

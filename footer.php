@@ -17,7 +17,7 @@ $base = isset($basePath) ? $basePath : '';
             Dey</span>
         </a>
         <p style="max-width:360px;margin-top:15px">
-          Astrology, tarot, Vastu, and numerology consultations in Siliguri, West Bengal, and online worldwide by
+          Astrology, tarot, Vastu, Akashic Records, and numerology consultations in Siliguri, West Bengal, and online worldwide by
           arrangement.
         </p>
       </div>
@@ -34,6 +34,7 @@ $base = isset($basePath) ? $basePath : '';
           <li><a href="<?php echo $base; ?>career-guidance.php">Career &amp; Business Guidance</a></li>
           <li><a href="<?php echo $base; ?>marriage-consultation.php">Love &amp; Marriage Consultation</a></li>
           <li><a href="<?php echo $base; ?>muhurta.php">Muhurta Selection</a></li>
+          <li><a href="<?php echo $base; ?>akashic-records.php">Akashic Record Reading</a></li>
         </ul>
       </div>
 
@@ -70,7 +71,7 @@ $base = isset($basePath) ? $basePath : '';
     </div>
 
     <div class="footer-bottom" id="disclaimer">
-      Disclaimer: Astrology, tarot, Vastu, and numerology are traditional interpretive disciplines intended for personal
+      Disclaimer: Astrology, tarot, Vastu, Akashic Records, and numerology are traditional interpretive disciplines intended for personal
       reflection, guidance, and spiritual self-discovery. Consultations do not guarantee predetermined outcomes and are
       not a substitute for qualified medical, psychological, legal, or financial counsel.<br><br>
       <div class="footer-bottom-row">

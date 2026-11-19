@@ -285,8 +285,8 @@ include __DIR__ . '/../header.php';
               <tr>
                 <td><strong>12th House</strong></td>
                 <td>Vyaya Bhava</td>
-                <td>Spiritual liberation (Moksha), foreign settlement, expenditure, meditation, sleep.</td>
-                <td><a href="../vastu.php">Brahmasthan &amp; Space Tuning</a></td>
+                <td>Spiritual liberation (Moksha), past-life karma, foreign settlement, meditation, inner planes.</td>
+                <td><a href="../akashic-records.php">Akashic Record Reading</a></td>
               </tr>
             </tbody>
           </table>

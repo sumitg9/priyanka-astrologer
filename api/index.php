@@ -28,6 +28,9 @@ if (!empty($path)) {
     if (is_file($targetFile)) {
         $ext = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
         if ($ext !== 'php') {
+            if (php_sapi_name() === 'cli-server') {
+                return false;
+            }
             serveStaticFile($targetFile, $ext);
             exit;
         }

@@ -26,7 +26,7 @@ include __DIR__ . '/header.php';
           <p class="eyebrow">Meet your consultant</p>
           <h2 class="section-title">Hello, I’m <em>Priyanka Dey.</em></h2>
           <p class="section-copy">I offer personalised consultations across Vedic astrology, tarot reading, Vastu
-            Shastra and numerology for individuals seeking clarity, alignment, and calm perspective on the questions
+            Shastra, Akashic Records and numerology for individuals seeking clarity, alignment, and calm perspective on the questions
             that matter to them.</p>
           <p class="section-copy" style="margin-top:15px">My aim is to cultivate a respectful, reflective space where
             you can share your concerns, understand traditional astrological and spatial principles, and make informed
@@ -162,7 +162,18 @@ include __DIR__ . '/header.php';
               <h3>Numerology</h3>
               <p>Revealing the vibrations hidden in birth dates and names to harmonize personal timing and destiny
                 cycles.</p>
-              <a class="text-link" href="services.php">LEARN MORE ↗</a>
+              <a class="text-link" href="numerology.php">LEARN MORE ↗</a>
+            </div>
+          </article>
+
+          <!-- Akashic Records -->
+          <article class="card">
+            <img src="assets/images/akashic-records.svg" alt="Akashic Records Soul Wisdom and Past-Life Healing" loading="lazy">
+            <div class="card-body">
+              <span class="card-number">Soul Chronicle</span>
+              <h3>Akashic Records</h3>
+              <p>Accessing the etheric cosmic library to understand soul contracts, karmic imprints, and life purpose alignment.</p>
+              <a class="text-link" href="akashic-records.php">LEARN MORE ↗</a>
             </div>
           </article>
         </div>

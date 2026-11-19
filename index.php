@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Home | Priyanka Dey · Astrology, Tarot, Vastu & Numerology";
-$pageDescription = "Premium astrology, tarot, Vastu, Kundali and numerology consultations with Priyanka Dey in Siliguri, West Bengal.";
+$pageDescription = "Premium astrology, tarot, Vastu, Kundali, Akashic Records and numerology consultations with Priyanka Dey in Siliguri, West Bengal.";
 $bodyClass = "home-page";
 $activeNav = "home";
 $isHomePage = true;
@@ -205,7 +205,7 @@ include __DIR__ . '/header.php';
             <div class="container center">
                 <p class="eyebrow">PERSONAL CONSULTATIONS WITH PRIYANKA DEY</p>
                 <h2 class="section-title">Astrology, Tarot & Vastu Consultations <br><em>in Siliguri</em></h2>
-                <p class="section-copy">Explore astrology, Kundali analysis, Tarot, numerology, Vastu and horoscope
+                <p class="section-copy">Explore astrology, Kundali analysis, Tarot, Akashic Records, numerology, Vastu and horoscope
                     readings with Priyanka Dey in Siliguri. Choose a consultation for your questions and goals.</p>
 
                 <div class="cards cards-3col">
@@ -261,16 +261,15 @@ include __DIR__ . '/header.php';
                         </div>
                     </article>
 
-                    <!-- 5. Horoscope -->
+                    <!-- 5. Akashic Record Reading -->
                     <article class="card">
-                        <img src="assets/images/horoscope1.jpg" alt="Golden zodiac wheel against a starry background"
+                        <img src="assets/images/tarrot.jpg" alt="Akashic Record Reading and past-life soul consultation in Siliguri"
                             loading="lazy">
                         <div class="card-body">
-                            <span class="card-number">05 / YOUR PERSONAL OUTLOOK</span>
-                            <h3>Horoscope Reading</h3>
-                            <p>Explore your zodiac sign and planetary transits through a personal horoscope reading
-                                focused on the themes of your month or year.</p>
-                            <a class="text-link" href="horoscope.php">VIEW HOROSCOPE READINGS ↗</a>
+                            <span class="card-number">05 / SOUL CHRONICLE</span>
+                            <h3>Akashic Record Reading</h3>
+                            <p>Access your soul's cosmic archive, uncover past-life karmic patterns, and align with your true purpose through a sacred reading.</p>
+                            <a class="text-link" href="akashic-records.php">VIEW AKASHIC SERVICES ↗</a>
                         </div>
                     </article>
 
@@ -283,7 +282,7 @@ include __DIR__ . '/header.php';
                             <h3>Numerology Consultation</h3>
                             <p>Discover traditional interpretations of your name, birth date and life path number
                                 through a personal numerology consultation.</p>
-                            <a class="text-link" href="services.php">VIEW NUMEROLOGY SERVICES ↗</a>
+                            <a class="text-link" href="numerology.php">VIEW NUMEROLOGY SERVICES ↗</a>
                         </div>
                     </article>
                 </div>

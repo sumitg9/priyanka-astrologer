@@ -12,7 +12,7 @@ include __DIR__ . '/header.php';
       <div class="crumb">Home &nbsp; / &nbsp; Contact</div>
       <p class="eyebrow" style="margin-top:24px">Consultation Enquiry</p>
       <h1>Let’s begin with your question.</h1>
-      <p>Tell Priyanka Dey which discipline you are interested in — Vedic Astrology, Tarot Reading, Vastu Shastra, Kundali or Numerology — and your preferred session format.</p>
+      <p>Tell Priyanka Dey which discipline you are interested in — Vedic Astrology, Tarot Reading, Akashic Records, Vastu Shastra, Kundali or Numerology — and your preferred session format.</p>
     </div>
   </section>
 
@@ -68,6 +68,7 @@ include __DIR__ . '/header.php';
                   <option value="Career Guidance">Career &amp; Business Guidance</option>
                   <option value="Love &amp; Marriage">Love &amp; Marriage Consultation</option>
                   <option value="Muhurta Selection">Muhurta Selection</option>
+                  <option value="Akashic Record">Akashic Record Reading</option>
                   <option value="Horoscope">Horoscope &amp; Zodiac</option>
                   <option value="General">Other / Not Sure</option>
                 </select>

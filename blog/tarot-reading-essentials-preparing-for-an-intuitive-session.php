@@ -342,7 +342,7 @@ include __DIR__ . '/../header.php';
           high-definition clarity on <em>immediate next steps</em> (the next 3 to 6 months). Furthermore, each Tarot
           card vibrates with a specific numerical frequency—such as the Emperor (4) reflecting structural discipline, or
           the Chariot (7) reflecting spiritual triumph (<a href="../numerology.php">explore Numerology life path
-            numbers</a>).
+            numbers</a>). For deep soul-level inquiries into recurring past-life contracts or karmic roots behind present emotional knots, pairing intuitive Tarot with an <a href="../akashic-records.php">Akashic Record Reading</a> offers profound multi-dimensional healing.
         </p>
 
         <h2 id="in-person-vs-online">8. In-Person Chamber (Siliguri) vs. Live Online Readings</h2>

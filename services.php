@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Consultation Services | Vedic Astrology, Kundali, Tarot &amp; Vastu | Priyanka Dey";
-$pageDescription = "Explore the full spectrum of consultations by Priyanka Dey in Siliguri and online: Vedic Astrology, Kundali Analysis, Kundali Matching, Tarot Reading, Numerology, Vastu Shastra, and Muhurta selection.";
-$pageKeywords = "Astrology services Siliguri, Kundali matching Siliguri, Tarot card reading, Vastu Shastra audit, Numerology consultation, Priyanka Dey services";
+$pageTitle = "Consultation Services | Vedic Astrology, Kundali, Tarot, Vastu &amp; Akashic Records | Priyanka Dey";
+$pageDescription = "Explore the full spectrum of consultations by Priyanka Dey in Siliguri and online: Vedic Astrology, Kundali Analysis, Kundali Matching, Tarot Reading, Numerology, Vastu Shastra, Muhurta selection, and Akashic Record reading.";
+$pageKeywords = "Astrology services Siliguri, Kundali matching Siliguri, Tarot card reading, Vastu Shastra audit, Numerology consultation, Akashic records Siliguri, Akashik record reading, Priyanka Dey services";
 $canonicalUrl = "https://priyankadey.com/services.php";
 $ogImage = "https://priyankadey.com/assets/images/astrology.jpg";
 $activeNav = "services";
@@ -55,10 +55,10 @@ $extraHead = <<<'EXTRAHEAD'
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How do I choose between an Astrology, Tarot, Vastu, or Numerology consultation?",
+            "name": "How do I choose between an Astrology, Tarot, Vastu, Numerology, or Akashic Record consultation?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Choose Astrology or Kundali Analysis if you have your exact birth date, time, and location and seek in-depth insights into lifelong planetary cycles, career timing, and karmic tendencies. Choose Tarot Reading if you face an immediate decision, relationship dilemma, or lack exact birth time coordinates. Choose Vastu Shastra for architectural and spatial energy balancing in your home or workplace. Choose Numerology to harmonize your name vibration and understand your personal 9-year cycle."
+              "text": "Choose Astrology or Kundali Analysis if you have your exact birth date, time, and location and seek in-depth insights into lifelong planetary cycles, career timing, and karmic tendencies. Choose Tarot Reading if you face an immediate decision, relationship dilemma, or lack exact birth time coordinates. Choose Vastu Shastra for architectural and spatial energy balancing in your home or workplace. Choose Numerology to harmonize your name vibration and understand your personal 9-year cycle. Choose Akashic Records to explore your soul origin, past-life karmic patterns, dissolve obsolete vows, and align with your spiritual purpose."
             }
           },
           {
@@ -128,7 +128,7 @@ include __DIR__ . '/header.php';
       </nav>
 
       <div class="trust-pills">
-        <span class="trust-pill"><span class="trust-pill-dot"></span> 9 Classical Vedic &amp; Intuitive
+        <span class="trust-pill"><span class="trust-pill-dot"></span> 10 Classical Vedic &amp; Spiritual
           Disciplines</span>
         <span class="trust-pill"><span class="trust-pill-dot"></span> Personalised In-Person &amp; Online
           Consultations</span>
@@ -280,6 +280,19 @@ include __DIR__ . '/header.php';
                 &#8599;</a>
             </div>
           </article>
+
+          <!-- 10. Akashic Record Reading -->
+          <article class="card" id="akashic-records">
+            <img src="assets/images/tarrot.jpg" alt="Akashic Record Reading and Soul Karma Guidance in Siliguri" width="600" height="340"
+              loading="lazy" decoding="async">
+            <div class="card-body">
+              <span class="card-number">10 / Soul Chronicle</span>
+              <h3>Akashic Record Reading</h3>
+              <p>Explore your soul's cosmic archive, past-life karmic patterns, spiritual origins, and sacred soul contracts for deep healing and purpose.</p>
+              <a class="text-link" href="akashic-records.php">EXPLORE AKASHIC RECORDS
+                &#8599;</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -343,7 +356,7 @@ include __DIR__ . '/header.php';
           <!-- FAQ 1 -->
           <details class="faq-accordion" open>
             <summary class="faq-summary">
-              <span>How do I choose between an Astrology, Tarot, Vastu, or Numerology consultation?</span>
+              <span>How do I choose between an Astrology, Tarot, Vastu, Numerology, or Akashic Record consultation?</span>
               <span class="faq-indicator" aria-hidden="true">+</span>
             </summary>
             <div class="faq-content">
@@ -356,6 +369,7 @@ include __DIR__ . '/header.php';
                   timing.</li>
                 <li><strong>Tarot Reading:</strong> Best suited for immediate crossroads dilemmas, emotional
                   reflections, and situations where exact birth time is unavailable.</li>
+                <li><strong>Akashic Records:</strong> Recommended when seeking deep spiritual insight into your soul blueprint, past-life karmic imprints, recurring emotional knots, and sacred life purpose beyond planetary transits.</li>
                 <li><strong>Vastu Shastra:</strong> Recommended for harmonizing physical living environments, improving
                   domestic tranquility, or optimizing corporate workplaces for financial liquidity.</li>
                 <li><strong>Numerology:</strong> Excellent for optimizing name spellings, brand names, understanding
@@ -408,6 +422,7 @@ include __DIR__ . '/header.php';
                 If your exact birth time is completely unknown, you can book:
               </p>
               <ul style="margin: 10px 0 14px 20px; line-height: 1.8; text-align: left;">
+                <li><strong>Akashic Record Reading:</strong> Connects directly with your soul frequency and legal name; requires no birth data.</li>
                 <li><strong>Tarot Reading:</strong> Requires no birth data; works through real-time energetic resonance.
                 </li>
                 <li><strong>Numerology:</strong> Requires only the date of birth (day, month, year) and full legal name.
@@ -470,6 +485,23 @@ include __DIR__ . '/header.php';
                 Remedies suggested are classical, sattvic, and empowering: personalized Vedic mantras for mental
                 tranquility, charitable donations (Daana), behavioral adjustments, and gemstone guidance only when
                 genuinely beneficial and feasible for the client.
+              </p>
+            </div>
+          </details>
+
+          <!-- FAQ 8 (Akashic Records) -->
+          <details class="faq-accordion">
+            <summary class="faq-summary">
+              <span>What is an Akashic Record reading and what can I discover from it?</span>
+              <span class="faq-indicator" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                An Akashic Record reading accesses the universal vibrational archive of your soul's journey across lifetimes.
+                Unlike fortune-telling or deterministic astrology, it focuses on the spiritual root cause of current life lessons.
+                Through sacred attunement with Priyanka Dey, you can uncover past-life vows (such as vows of poverty or martyrdom)
+                that block abundance today, illuminate karmic soul contracts with family and romantic partners, understand your
+                unique soul gifts, and receive empowering healing to align with your highest timeline.
               </p>
             </div>
           </details>
