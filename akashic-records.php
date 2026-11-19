@@ -3,7 +3,7 @@ $pageTitle = "Akashic Record Reading in Siliguri & Online | Priyanka Dey";
 $pageDescription = "Sacred Akashic Record reading and past-life soul consultations with Priyanka Dey in Siliguri & online. Uncover your soul blueprint, resolve karmic contracts, and clear energy blocks.";
 $pageKeywords = "Akashic Record Siliguri, Akashik Record reading, Akashic Records consultation, soul blueprint reading, past life karma healing, karmic contracts, spiritual healing Siliguri, Priyanka Dey";
 $canonicalUrl = "https://priyankadey.com/akashic-records.php";
-$ogImage = "https://priyankadey.com/assets/images/tarrot.jpg";
+$ogImage = "https://priyankadey.com/assets/images/akashic-records.jpg";
 $activeNav = "akashic-records";
 $extraHead = <<<'EXTRAHEAD'
 <script type="application/ld+json">
@@ -214,9 +214,9 @@ include __DIR__ . '/header.php';
         </div>
 
         <div>
-          <img class="portrait" src="assets/images/tarrot.jpg"
-            alt="Priyanka Dey conducting an Akashic Record reading and past-life soul consultation in Siliguri"
-            width="514" height="688" loading="lazy" decoding="async">
+          <img class="portrait" src="assets/images/akashic-records-vertical.jpg"
+            alt="The living Akashic Records cosmic chronicle and soul library"
+            width="576" height="1024" loading="lazy" decoding="async" style="border:1px solid #c8a66b55;box-shadow:0 14px 40px rgba(0,0,0,0.5);border-radius:6px;width:100%;object-fit:cover;">
         </div>
       </div>
     </section>
@@ -320,9 +320,9 @@ include __DIR__ . '/header.php';
     <section class="section" id="sacred-pathway">
       <div class="container split">
         <div>
-          <img class="portrait" src="assets/images/akashic-records.svg"
-            alt="The Sacred Akashic Records Matrix, Merkabah Geometry and Soul Chronicle" width="500"
-            height="500" loading="lazy" decoding="async" style="border:1px solid #c8a66b44;box-shadow:0 12px 35px rgba(0,0,0,0.4);border-radius:6px;width:100%;max-width:480px;margin:0 auto;display:block;">
+          <img class="portrait" src="assets/images/akashic-pathway-vertical.jpg"
+            alt="The Sacred Pathway bridge leading to the illuminated Book of Life in the Cosmic Library" width="576"
+            height="1024" loading="lazy" decoding="async" style="border:1px solid #c8a66b55;box-shadow:0 14px 40px rgba(0,0,0,0.5);border-radius:6px;width:100%;max-width:520px;margin:0 auto;display:block;object-fit:cover;">
         </div>
 
         <div>
@@ -427,7 +427,73 @@ include __DIR__ . '/header.php';
       </div>
     </section>
 
-    <!-- SECTION 5: CLEVER MID-PAGE CTA BANNER -->
+    <!-- SECTION 5: WHAT YOU CAN INQUIRE OF THE AKASHA -->
+    <section class="section" id="inquiries">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Soul Inquiries &amp; Discovery</p>
+          <h2 class="section-title">What You Can Ask the <em>Living Records.</em></h2>
+          <p class="section-copy">
+            The Akashic Records respond to the sincerity of your heart. When you step into the stillness of the Akasha,
+            inquiries formulated around growth, spiritual understanding, and emotional freedom unlock transformative insight.
+          </p>
+
+          <div style="margin-top:20px;display:flex;flex-direction:column;gap:16px">
+            <div style="display:flex;gap:12px;align-items:flex-start">
+              <span style="color:var(--champagne);font-size:16px;line-height:1.2">&#10022;</span>
+              <div>
+                <strong style="color:#ffffff;font-size:14.5px;">Life Purpose &amp; Vocational Crossroads:</strong>
+                <p style="font-size:13.5px;color:rgba(255,255,255,0.72);margin:3px 0 0;line-height:1.6;">
+                  Why did my soul incarnate during this era? Which dormant talents are ready to be expressed? What is blocking my true creative abundance?
+                </p>
+              </div>
+            </div>
+
+            <div style="display:flex;gap:12px;align-items:flex-start">
+              <span style="color:var(--champagne);font-size:16px;line-height:1.2">&#10022;</span>
+              <div>
+                <strong style="color:#ffffff;font-size:14.5px;">Karmic Relationships &amp; Soul Contracts:</strong>
+                <p style="font-size:13.5px;color:rgba(255,255,255,0.72);margin:3px 0 0;line-height:1.6;">
+                  What shared past-life history binds me to this person? What spiritual lesson is this relationship teaching me? How can we resolve recurring friction?
+                </p>
+              </div>
+            </div>
+
+            <div style="display:flex;gap:12px;align-items:flex-start">
+              <span style="color:var(--champagne);font-size:16px;line-height:1.2">&#10022;</span>
+              <div>
+                <strong style="color:#ffffff;font-size:14.5px;">Dissolving Ancient Vows &amp; Recurring Knots:</strong>
+                <p style="font-size:13.5px;color:rgba(255,255,255,0.72);margin:3px 0 0;line-height:1.6;">
+                  Am I carrying ancient vows of poverty, guilt, or self-sacrifice? How can I permanently revoke these soul agreements to receive ease and joy?
+                </p>
+              </div>
+            </div>
+
+            <div style="display:flex;gap:12px;align-items:flex-start">
+              <span style="color:var(--champagne);font-size:16px;line-height:1.2">&#10022;</span>
+              <div>
+                <strong style="color:#ffffff;font-size:14.5px;">Ancestral Clearing &amp; Generational Healing:</strong>
+                <p style="font-size:13.5px;color:rgba(255,255,255,0.72);margin:3px 0 0;line-height:1.6;">
+                  What unhealed ancestral burdens or emotional patterns am I unconsciously holding for my lineage? How can I step into sovereignty?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:28px">
+            <a class="btn gold" href="contact.php?service=Akashic%20Record#booking">Bring Your Inquiries &#8599;</a>
+          </div>
+        </div>
+
+        <div>
+          <img class="portrait" src="assets/images/akashic-library-vertical.jpg"
+            alt="The Grand Cosmic Library rotunda with the floating Book of Life and seeker"
+            width="576" height="1024" loading="lazy" decoding="async" style="border:1px solid #c8a66b55;box-shadow:0 14px 40px rgba(0,0,0,0.5);border-radius:6px;width:100%;object-fit:cover;">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CLEVER MID-PAGE CTA BANNER -->
     <section class="section">
       <div class="container">
         <div class="service-cta-banner">

@@ -140,6 +140,13 @@ include __DIR__ . '/header.php';
               <h3 style="font-size:20px;margin:6px 0">Numerology</h3>
             </div>
           </article>
+          <article class="card">
+            <img src="assets/images/akashic-records.svg" alt="Akashic Record Reading" style="height:140px;object-fit:cover">
+            <div class="card-body" style="padding:16px">
+              <span class="card-number">Soul Chronicle</span>
+              <h3 style="font-size:20px;margin:6px 0">Akashic Records</h3>
+            </div>
+          </article>
         </div>
       </div>
     </section>

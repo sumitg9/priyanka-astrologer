@@ -263,7 +263,7 @@ include __DIR__ . '/header.php';
 
                     <!-- 5. Akashic Record Reading -->
                     <article class="card">
-                        <img src="assets/images/tarrot.jpg" alt="Akashic Record Reading and past-life soul consultation in Siliguri"
+                        <img src="assets/images/akashic-records.jpg" alt="Akashic Record Reading and past-life soul consultation in Siliguri"
                             loading="lazy">
                         <div class="card-body">
                             <span class="card-number">05 / SOUL CHRONICLE</span>
